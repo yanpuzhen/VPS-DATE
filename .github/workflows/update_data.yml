@@ -1,0 +1,50 @@
+name: Auto Scrape Data (每6小时更新)
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # 每6小时运行一次 (UTC时间)
+  workflow_dispatch:      # 允许手动点击按钮触发
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 允许Action提交代码
+
+    steps:
+      - name: 1. 检出代码 (Checkout)
+        uses: actions/checkout@v4
+
+      - name: 2. 设置 Python 环境
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: 3. 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: 4. 运行爬虫脚本
+        env:
+          # 如果有敏感数据（如API Key），请在GitHub仓库Settings->Secrets中添加，然后在此引用
+          # 例如: MY_SECRET_KEY: ${{ secrets.MY_SECRET_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python dedirock_scraper.py
+
+      - name: 5. 提交并推送更新
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # 检查是否有文件变动
+          git status
+          if [[ -n $(git status --porcelain public/dedirock.json) ]]; then
+            echo "Data changed, committing..."
+            git add public/dedirock.json
+            git commit -m "Auto-update VPS data [skip ci]"
+            git push
+          else
+            echo "No data changes detected. dedirock.json is identical."
+            grep "Total found" scraper_output.log || true
+          fi
