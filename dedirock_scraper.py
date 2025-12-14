@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
 import concurrent.futures
 import re
 
@@ -219,6 +220,7 @@ def scrape_all():
     print(f"Total found: {len(clean_results)}")
     
     # Sort by value score descending
+    os.makedirs("public", exist_ok=True)
     clean_results.sort(key=lambda x: x['value_score'], reverse=True)
     
     with open("public/dedirock.json", "w", encoding='utf-8') as f:
