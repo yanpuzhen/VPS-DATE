@@ -1,8 +1,8 @@
-name: Auto Scrape Data (每6小时更新)
+name: Auto Scrape Data (每1小时更新)
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # 每6小时运行一次 (UTC时间)
+    - cron: '0 * * * *' # 每6小时运行一次 (UTC时间)
   workflow_dispatch:      # 允许手动点击按钮触发
 
 jobs:
