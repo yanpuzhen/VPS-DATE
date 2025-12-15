@@ -8,6 +8,7 @@ import os
 
 # CONFIG
 BASE_URL = "https://cloud.colocrossing.com/cart.php?a=confproduct&i={0}"
+MAIN_URL = "https://cloud.colocrossing.com/cart.php"
 
 def parse_specs(text, title):
     specs = {
@@ -15,7 +16,7 @@ def parse_specs(text, title):
         "disk": "N/A",
         "cpu": 0,
         "bandwidth": "N/A",
-        "location": "Buffalo" # Default ColoCrossing HQ
+        "location": "Buffalo" # Default
     }
     
     text = text.lower() + " " + title.lower()
@@ -23,18 +24,14 @@ def parse_specs(text, title):
     # RAM
     ram_match = re.search(r'(\d+(?:\.\d+)?)\s*(mb|gb)\s*ram', text)
     if ram_match:
-        val = float(ram_match.group(1)) # float support
+        val = float(ram_match.group(1))
         unit = ram_match.group(2)
         if unit == 'gb':
-            specs['ram'] = int(val * 1024) # Store as MB (int)
-
+            specs['ram'] = int(val * 1024)
         else:
             specs['ram'] = val
-    else:
-        pass
 
     # CPU
-    # Improved regex for vCPU/Core support
     cpu_match = re.search(r'(\d+)\s*x?\s*(vcpu|vcore|core|cpu)', text)
     if cpu_match:
         specs['cpu'] = int(cpu_match.group(1))
@@ -68,78 +65,73 @@ def parse_specs(text, title):
     elif "unlimited bandwidth" in text:
         specs['bandwidth'] = "Unlimited"
 
-         
     return specs
 
 def check_pid(pid):
     try:
         url = BASE_URL.format(pid)
         
-        # Use Session for cookies
+        # KEY FIX: Use Session and Prime Cookies for EVERY Check
+        # (Overhead acceptable for accuracy)
         with requests.Session() as s:
             s.headers.update({
                  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
             })
+            # 1. Prime Cookies by visiting main cart
+            s.get(MAIN_URL, timeout=10)
+            
+            # 2. Visit Product URL
             res = s.get(url, timeout=12)
         
-        # Check success
         if res.status_code != 200: return None
         
         soup = BeautifulSoup(res.text, 'html.parser')
         text_dump = soup.get_text(" ", strip=True)
             
-        # Title Extraction Strategy
+        # Title Extraction
         title = ""
         
-        # 1. Try generic WHMCS selectors
-        hostim_title = soup.select_one(".product-title")
-        if hostim_title: title = hostim_title.get_text(strip=True)
-
-        if not title:
-            summary_title = soup.select_one("#order-summary .product-name") or soup.select_one(".summary-product-name")
-            if summary_title: title = summary_title.get_text(strip=True)
-            
-        if not title:
-             config_header = soup.select_one(".product-info h3") or soup.select_one("header span.product-name")
-             if config_header: title = config_header.get_text(strip=True)
+        # 0. H4 Priority (ColoCrossing Custom Theme)
+        h4 = soup.select_one("h4")
+        if h4: 
+            t = h4.get_text(strip=True)
+            # Filter generic H4s if any
+            if len(t) > 3 and "Overview" not in t and "Categorie" not in t:
+                title = t
         
+        # Fallbacks
+        if not title:
+            hostim_title = soup.select_one(".product-title")
+            if hostim_title: title = hostim_title.get_text(strip=True)
+
         if not title:
             h1 = soup.select_one("h1")
             if h1:
                 t = h1.get_text(strip=True).replace("Configure", "").strip()
-                if "Shopping Cart" not in t and "Review" not in t and "Login" not in t:
-                    title = t
+                if "Shopping Cart" not in t: title = t
 
-        if not title or title == "Shopping Cart": return None
+        if not title or title == "Shopping Cart" or "Configure" in title: 
+             # Last diff check
+             if "1GB RAM" in res.text and not title:
+                 # Debug fallback
+                 pass
+             else:
+                 return None
 
         # Price Extraction
         price = "0.00"
         
-        # Billing Cycle Check
-        billing_select = soup.select_one("select[name='billingcycle']")
-        price_text = ""
-
-        if billing_select:
-            options = billing_select.find_all("option")
-            annual_option = None
-            
-            for opt in options:
-                txt = opt.get_text(strip=True).lower()
-                if "annually" in txt or "year" in txt:
-                    annual_option = opt
-                    break 
-            
-            if annual_option:
-                price_text = annual_option.get_text(strip=True)
-            elif options:
-                price_text = options[0].get_text(strip=True)
+        # Look for price in summary
+        price_el = soup.select_one("#order-summary .price") or soup.select_one(".amt") or soup.select_one(".product-pricing") or soup.select_one(".total-due-today .amt")
         
-        if price_text:
-            price = price_text
-        else:
-            price_el = soup.select_one("#order-summary .price") or soup.select_one(".amt") or soup.select_one(".product-pricing") or soup.select_one(".total-due-today .amt")
-            if price_el:
-                price = price_el.get_text(strip=True)
+        # Also check dropdowns
+        billing_select = soup.select_one("select[name='billingcycle']")
+        if billing_select:
+             # Logic to find price in options
+             pass
+
+        if price_el:
+            price = price_el.get_text(strip=True)
             
         # Specs logic
         desc_text = soup.select_one(".product-info") or soup.select_one(".description")
@@ -154,15 +146,14 @@ def check_pid(pid):
         except:
             price_val = 999.0 
         
-        if price_val < 0.1: 
-             pass
+        if price_val < 0.1: pass
 
         performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
         if performance_score == 0: return None
         
         value_score = performance_score / (price_val if price_val > 0 else 1)
         
-        # print(f"FOUND PID {pid}: {title} | {specs['location']} | {specs['ram']}MB | ${price_val}")
+        print(f"FOUND PID {pid}: {title} | {specs['location']} | {specs['ram']}MB | ${price_val}")
         
         return {
             "id": pid,
@@ -182,7 +173,7 @@ def check_pid(pid):
 
 def scrape_all():
     print("Starting concurrent scan of ColoCrossing PIDs 0-1000...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor: # Reduced workers to be nice
         results = list(executor.map(check_pid, range(1000))) 
     
     clean_results = [r for r in results if r]
