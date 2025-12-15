@@ -23,7 +23,7 @@
       "ram": 262144,
       "disk": "4x 2TB SSD",
       "cpu": 32,
-      "bandwidth": "N/A",
+      "bandwidth": "100 TB",
       "location": "Los Angeles"
     },
     "description": "Dual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo) 256 GB RAM 4x 2 TB SSD 100 TB Monthly Transfer 1Gbps Network Port Premium Network Blend /27 IPv4 Allocation - 29 Usable IPs Deploy",
@@ -39,7 +39,7 @@
       "ram": 262144,
       "disk": "4x 2TB SSD",
       "cpu": 56,
-      "bandwidth": "N/A",
+      "bandwidth": "100 TB",
       "location": "Los Angeles"
     },
     "description": "Dual Intel Xeon E5-2680 v4 28x 2.40 GHz (56x Threads, 3.30 GHz Turbo) 256 GB RAM 4x 2 TB SSD 100 TB Monthly Transfer 1Gbps Network Port Premium Network Blend /26 IPv4 Allocation - 61 Usable IPs Deploy",
@@ -55,7 +55,7 @@
       "ram": 32768,
       "disk": "500GB SSD",
       "cpu": 4,
-      "bandwidth": "N/A",
+      "bandwidth": "30 TB",
       "location": "New York"
     },
     "description": "Intel Xeon E3-1240 V3 - 4x 3.40 GHz (8 Threads, 3.80 GHz Turbo) 32 GB RAM 500 GB SSD (main drive) 2 TB SATA HDD (secondary drive) 30 TB Monthly Transfer 1Gbps Network Port /28 IPv4 Allocation - 13 Usa",
@@ -71,7 +71,7 @@
       "ram": 131072,
       "disk": "1TB SSD",
       "cpu": 32,
-      "bandwidth": "N/A",
+      "bandwidth": "50 TB",
       "location": "Los Angeles"
     },
     "description": "Dual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo) 128 GB RAM 1x 1TB SSD 1x 3TB HDD 50 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Deployed in Firs",
@@ -87,7 +87,7 @@
       "ram": 131072,
       "disk": "2TB NVME",
       "cpu": 32,
-      "bandwidth": "N/A",
+      "bandwidth": "40 TB",
       "location": "Global"
     },
     "description": "AMD Ryzen™ 9 5950X - 16x 3.40 GHz (32x Threads, 4.90 GHz Max Boost Clock) 128 GB DDR4 RAM 2 TB NVMe 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - West C",
@@ -103,7 +103,7 @@
       "ram": 196608,
       "disk": "84TB NVME",
       "cpu": 32,
-      "bandwidth": "N/A",
+      "bandwidth": "40 TB",
       "location": "Global"
     },
     "description": "AMD Ryzen™ 9 7950X3D - 16x 4.20 GHz (32x Threads, 5.70 GHz Max Boost Clock) 192 GB DDR5 RAM 2x 3.84 TB NVMe 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah ",
@@ -119,7 +119,7 @@
       "ram": 131072,
       "disk": "1TB NVME",
       "cpu": 32,
-      "bandwidth": "N/A",
+      "bandwidth": "40 TB",
       "location": "Global"
     },
     "description": "AMD Ryzen™ 9 7950X3D - 16x 4.20 GHz (32x Threads, 5.70 GHz Max Boost Clock) 128 GB DDR5 RAM 1 TB NVMe Storage 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Uta",
@@ -135,7 +135,7 @@
       "ram": 16384,
       "disk": "500GB SSD",
       "cpu": 4,
-      "bandwidth": "N/A",
+      "bandwidth": "30 TB",
       "location": "New York"
     },
     "description": "Intel Xeon E3-1230 V2 - 4x 3.30 GHz (8 Threads, 3.70 GHz Turbo) 16 GB RAM 500 GB SSD 30 TB Monthly Transfer 1Gbps Network Port /29 IPv4 Allocation - 5 Usable IPs IPMI Access New York - East Coast Data",
@@ -151,7 +151,7 @@
       "ram": 32768,
       "disk": "750GB HDD",
       "cpu": 8,
-      "bandwidth": "N/A",
+      "bandwidth": "10 TB",
       "location": "Global"
     },
     "description": "Dual Xeon E5-2690 8x 2.90 GHz 32 GB RAM 750 GB HDD 10TB Monthly Transfer 1Gbps Network Port 1 IPv4 Address",
@@ -167,7 +167,7 @@
       "ram": 65536,
       "disk": "1TB SSD",
       "cpu": 32,
-      "bandwidth": "N/A",
+      "bandwidth": "100 TB",
       "location": "Los Angeles"
     },
     "description": "Dual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo) 64 GB RAM 1 TB SSD 100 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Deployed in First Available U",
@@ -183,7 +183,7 @@
       "ram": 65536,
       "disk": "1TB NVME",
       "cpu": 12,
-      "bandwidth": "N/A",
+      "bandwidth": "40 TB",
       "location": "Global"
     },
     "description": "AMD Ryzen™ 5 7600 - 6x 3.80 GHz (12x Threads, 5.10 GHz Max Boost Clock) 64 GB DDR5 RAM 1 TB NVMe Storage 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - W",
@@ -199,7 +199,7 @@
       "ram": 65536,
       "disk": "1TB NVME",
       "cpu": 16,
-      "bandwidth": "N/A",
+      "bandwidth": "40 TB",
       "location": "Global"
     },
     "description": "AMD Ryzen™ 7 7700 - 8x 3.80 GHz (16x Threads, 5.30 GHz Max Boost Clock) 64 GB DDR5 RAM 1 TB NVMe Storage 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - W",
@@ -215,7 +215,7 @@
       "ram": 65536,
       "disk": "240GB SSD",
       "cpu": 32,
-      "bandwidth": "N/A",
+      "bandwidth": "200 TB",
       "location": "Los Angeles"
     },
     "description": "Dual Xeon E5-2640 V2 - 16x 2.00 GHz (32x Threads, 2.50GHz Turbo) 64 GB RAM 240 GB SSD 10x 16 TB HDD 200 TB Monthly Transfer 1Gbps Network Port /29 IPv4 Allocation - 5 Usable IPs IPMI Access Los Angele",
@@ -231,7 +231,7 @@
       "ram": 65536,
       "disk": "1TB NVME",
       "cpu": 24,
-      "bandwidth": "N/A",
+      "bandwidth": "40 TB",
       "location": "Global"
     },
     "description": "AMD Ryzen™ 9 7900 - 12x 3.70 GHz (24x Threads, 5.40 GHz Max Boost Clock) 64 GB DDR5 RAM 1 TB NVMe 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - West Coa",
@@ -295,7 +295,7 @@
       "ram": 65536,
       "disk": "1TB SSD",
       "cpu": 24,
-      "bandwidth": "N/A",
+      "bandwidth": "30 TB",
       "location": "Los Angeles"
     },
     "description": "Dual Intel Xeon E5-2620 v2 - 12x 2.10 GHz (24x Threads @ 2.10 GHz with HT) 64 GB RAM 1 TB SSD 30 TB Monthly Transfer / 1Gbps Network Port /29 + 8x /27 IPv4 Allocation - 237 Usable IPs Multiple Datacen",
@@ -311,7 +311,7 @@
       "ram": 16384,
       "disk": "500GB HDD",
       "cpu": 6,
-      "bandwidth": "N/A",
+      "bandwidth": "10 TB",
       "location": "Global"
     },
     "description": "Dual Xeon E5-2690 6x 2.90 GHz 16 GB RAM 500 GB HDD 10TB Monthly Transfer 1Gbps Network Port 1 IPv4 Address",
@@ -327,7 +327,7 @@
       "ram": 32768,
       "disk": "2x 1TB SSD",
       "cpu": 8,
-      "bandwidth": "N/A",
+      "bandwidth": "35 TB",
       "location": "Global"
     },
     "description": "Intel Xeon E3-1270 v3 - 4x 3.50 GHz (8x Threads @ 3.90 GHz with HT) 32 GB RAM 2x 1 TB SSD 35 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Multiple Datacenter Locations",
@@ -359,7 +359,7 @@
       "ram": 8192,
       "disk": "250GB HDD",
       "cpu": 4,
-      "bandwidth": "N/A",
+      "bandwidth": "5 TB",
       "location": "Global"
     },
     "description": "Dual Xeon E5-2690 4x 2.90 GHz 8 GB RAM 250 GB HDD 5TB Monthly Transfer 1Gbps Network Port 1 IPv4 Address",
@@ -370,7 +370,7 @@
   {
     "id": "2.5 GB KVM VPS (Black Friday 2025)",
     "title": "2.5 GB KVM VPS (Black Friday 2025)",
-    "price": "$18.66 USD",
+    "price": "$18.66 / Year",
     "specs": {
       "ram": 2560,
       "disk": "N/A",
@@ -391,7 +391,7 @@
       "ram": 65536,
       "disk": "256GB SSD",
       "cpu": 16,
-      "bandwidth": "N/A",
+      "bandwidth": "200 TB",
       "location": "Los Angeles"
     },
     "description": "Dual Intel Xeon E5-2640 V2 16x 2.00 GHz / 32 Threads 64 GB RAM 256 GB SSD (primary drive) 10x 16TB SAS Enterprise Drives Premium Hardware RAID Controller w/ BBU 200 TB Monthly Transfer 1Gbps Network P",
@@ -402,7 +402,7 @@
   {
     "id": "4 GB KVM VPS (Black Friday 2025)",
     "title": "4 GB KVM VPS (Black Friday 2025)",
-    "price": "$29.98 USD",
+    "price": "$29.98 / Year",
     "specs": {
       "ram": 4096,
       "disk": "N/A",
@@ -418,7 +418,7 @@
   {
     "id": "6 GB KVM VPS (Black Friday 2025)",
     "title": "6 GB KVM VPS (Black Friday 2025)",
-    "price": "$44.98 USD",
+    "price": "$44.98 / Year",
     "specs": {
       "ram": 6144,
       "disk": "N/A",
@@ -434,7 +434,7 @@
   {
     "id": "8 GB KVM VPS (Black Friday 2025)",
     "title": "8 GB KVM VPS (Black Friday 2025)",
-    "price": "$62.49 USD",
+    "price": "$62.49 / Year",
     "specs": {
       "ram": 8192,
       "disk": "N/A",
@@ -455,7 +455,7 @@
       "ram": 16384,
       "disk": "480GB SSD",
       "cpu": 8,
-      "bandwidth": "N/A",
+      "bandwidth": "35 TB",
       "location": "Global"
     },
     "description": "Intel Xeon E3-1230 v2 - 4x 3.30 GHz (8x Threads @ 3.30 GHz with HT) 16 GB RAM 480 GB SSD 35 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Multiple Datacenter Locations",
@@ -471,7 +471,7 @@
       "ram": 4096,
       "disk": "120GB HDD",
       "cpu": 2,
-      "bandwidth": "N/A",
+      "bandwidth": "5 TB",
       "location": "Global"
     },
     "description": "Dual Xeon E5-2690 2x 2.90 GHz 4 GB RAM 120 GB HDD 5TB Monthly Transfer 1Gbps Network Port 1 IPv4 Address",
@@ -514,7 +514,7 @@
   {
     "id": "1 GB KVM VPS (Black Friday 2025)",
     "title": "1 GB KVM VPS (Black Friday 2025)",
-    "price": "$10.60 USD",
+    "price": "$10.6 / Year",
     "specs": {
       "ram": 1024,
       "disk": "N/A",
@@ -535,7 +535,7 @@
       "ram": 16384,
       "disk": "500GB SSD",
       "cpu": 8,
-      "bandwidth": "N/A",
+      "bandwidth": "30 TB",
       "location": "Los Angeles"
     },
     "description": "Intel Xeon E3-1240 v3 - 4x 3.40 GHz (8x Threads @ 3.40 GHz with HT) 16 GB RAM 500GB SSD or 1 TB HDD 30 TB Monthly Transfer / 1Gbps Network Port /29 + 8x /27 IPv4 Allocation - 237 Usable IPs Multiple D",
@@ -567,7 +567,7 @@
       "ram": 16384,
       "disk": "500GB SSD",
       "cpu": 8,
-      "bandwidth": "N/A",
+      "bandwidth": "30 TB",
       "location": "New York"
     },
     "description": "Intel Xeon E3-1240 v3 - 4x 3.40 GHz (8x Threads @ 3.40 GHz with HT) 16 GB RAM 500GB SSD or 1TB SATA HDD 30 TB Monthly Transfer / 1Gbps Network Port /29 + 32x /29 IPv4 Allocations (Diverse 32c) New Yor",
@@ -606,22 +606,6 @@
     "purchase_url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-512mb",
     "value_score": 13.37973031752936,
     "raw_price": 22.99
-  },
-  {
-    "id": "1GB Ryzen VPS",
-    "title": "1GB Ryzen VPS",
-    "price": "$8.59 USD",
-    "specs": {
-      "ram": 0,
-      "disk": "20GB NVME",
-      "cpu": 1,
-      "bandwidth": "N/A",
-      "location": "Los Angeles"
-    },
-    "description": "1x AMD Ryzen CPU Core 20 GB NVMe SSD Storage 1 GB DDR4 RAM 2000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Rebo",
-    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-linux-kvm-vps/1gb-ryzen-vps",
-    "value_score": 0.046565774155995346,
-    "raw_price": 8.59
   },
   {
     "id": "Windows VPS 8GB",
@@ -800,6 +784,22 @@
     "raw_price": 27.59
   },
   {
+    "id": "1GB Ryzen VPS",
+    "title": "1GB Ryzen VPS",
+    "price": "$32.55 / Year",
+    "specs": {
+      "ram": 0,
+      "disk": "20GB NVME",
+      "cpu": 1,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "1x AMD Ryzen CPU Core 20 GB NVMe SSD Storage 1 GB DDR4 RAM 2000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Rebo",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-linux-kvm-vps/1gb-ryzen-vps",
+    "value_score": 0.012288786482334871,
+    "raw_price": 32.55
+  },
+  {
     "id": "DEDICATED - SEO Server Special 249 IPs",
     "title": "DEDICATED - SEO Server Special 249 IPs",
     "price": "$135.00 USD",
@@ -818,7 +818,7 @@
   {
     "id": "2.5 GB Ryzen VPS",
     "title": "2.5 GB Ryzen VPS",
-    "price": "$69.59 USD",
+    "price": "$69.59 / Year",
     "specs": {
       "ram": 0,
       "disk": "40GB NVME",
@@ -834,7 +834,7 @@
   {
     "id": "1.5 GB Ryzen VPS",
     "title": "1.5 GB Ryzen VPS",
-    "price": "$35.59 USD",
+    "price": "$35.59 / Year",
     "specs": {
       "ram": 0,
       "disk": "22GB NVME",
