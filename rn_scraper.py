@@ -13,14 +13,6 @@ MAX_PID = 10000 # Extended Range for hidden products
 
 # ... (omitted)
 
-                # FILTER: Remove "Shared/Reseller" products
-                t_lower = title.lower()
-                blacklist = ["shared hosting", "reseller hosting", "web hosting", "email hosting", "cpanel", "directadmin"]
-                if any(x in t_lower for x in blacklist): continue
-                
-                if performance_score == 0 and specs['disk'] == "N/A": continue
-                    
-                value_score = performance_score / (price_val if price_val > 0 else 1)
 
 # ...
 
