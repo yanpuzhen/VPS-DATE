@@ -4,7 +4,7 @@ import re
 import json
 import os
 import concurrent.futures
-import threading # FIX: Import threading for Lock
+import threading
 from urllib.parse import urlparse, parse_qs
 
 # CONFIG
@@ -12,7 +12,7 @@ BASE_URL = "https://my.racknerd.com"
 MAX_PID = 1500 
 
 seen_urls = set()
-url_lock = threading.Lock() # FIX: Use threading.Lock
+url_lock = threading.Lock() 
 all_products = {}
 
 def parse_specs(text, title):
@@ -24,8 +24,6 @@ def parse_specs(text, title):
         "location": "Global" 
     }
     
-    # Simple logic to guess location from text if not specific
-    # (Same logic as before)
     text = text.lower() + " " + title.lower()
     
     # RAM
@@ -78,10 +76,8 @@ def parse_specs(text, title):
     return specs
 
 def scrape_page(url, soup):
-    """Scrapes all products found on a page."""
     found = []
     
-    # 1. Check for Listing (Multiple Cards)
     cards = soup.select(".product") or soup.select(".package") or soup.select(".plan") or soup.select(".price-table")
     
     if cards:
@@ -105,8 +101,19 @@ def scrape_page(url, soup):
                 except: price_val = 0.0
                 
                 specs = parse_specs(desc_text, title)
+                
+                # SCORE CALCULATION FIX
                 performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
-                if performance_score == 0: continue
+                
+                # If no RAM/CPU (e.g. Shared Hosting), give base score if Disk exists
+                if performance_score == 0 and specs['disk'] != "N/A":
+                    performance_score = 100 # Arbitrary base score for Shared Hosting
+                    
+                # Only skip if truly empty specs
+                if performance_score == 0 and specs['disk'] == "N/A" and specs['bandwidth'] == "N/A": 
+                    # print(f"Skipping {title} (No specs)")
+                    continue
+                    
                 value_score = performance_score / (price_val if price_val > 0 else 1)
                 
                 found.append({
@@ -122,7 +129,7 @@ def scrape_page(url, soup):
             except: pass
             
     else:
-        # 2. Check for Single Config Page
+        # Single Config Page
         if "Configure" in soup.get_text() or "Order Summary" in soup.get_text():
             try:
                 title_el = soup.select_one("h1")
@@ -136,6 +143,11 @@ def scrape_page(url, soup):
                     except: price_val = 0.0
                     
                     performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
+                    
+                    # Same Fix for Single Page
+                    if performance_score == 0 and specs['disk'] != "N/A":
+                        performance_score = 100
+                    
                     if performance_score > 0:
                         found.append({
                             "id": title,
@@ -160,9 +172,8 @@ def check_pid(pid):
             s.headers.update(headers)
             res = s.get(url, allow_redirects=True, timeout=10)
             
-            final_url = res.url.split('?')[0] # Ignore query params
+            final_url = res.url.split('?')[0] 
             
-            # Thread-safe check
             with url_lock:
                 if final_url in seen_urls:
                     return []
