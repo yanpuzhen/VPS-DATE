@@ -1,0 +1,44 @@
+name: Auto Scrape RackNerd Data (Hourly)
+
+on:
+  schedule:
+    - cron: '15 * * * *' # Run at minute 15
+  workflow_dispatch:
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run RackNerd Scraper
+        run: python rn_scraper.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git status
+          if [[ -n $(git status --porcelain public/rn.json) ]]; then
+            echo "Data changed, committing..."
+            git add public/rn.json
+            git commit -m "Auto-update RackNerd data [skip ci]"
+            git push
+          else
+            echo "No changes in rn.json."
+          fi
