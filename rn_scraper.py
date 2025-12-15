@@ -82,9 +82,9 @@ def parse_specs(text, title):
         specs['disk'] = f"{final_size}{unit} {dtype}"
         if multiplier > 1: specs['disk'] = f"{multiplier}x {size_val}{unit} {dtype}"
 
-    bw_match = re.search(r'(\d+)\s*(TB|GB|MB)\s*Bandwidth', text, re.IGNORECASE)
+    bw_match = re.search(r'(\d+)\s*(TB|GB|MB)\s*(?:Monthly\s*)?(?:Bandwidth|Transfer)', text, re.IGNORECASE)
     if bw_match: specs['bandwidth'] = f"{bw_match.group(1)} {bw_match.group(2).upper()}"
-    elif "unlimited bandwidth" in text: specs['bandwidth'] = "Unlimited"
+    elif "unlimited bandwidth" in text or "unlimited transfer" in text: specs['bandwidth'] = "Unlimited"
         
     if "la" in text or "los angeles" in text: specs['location'] = "Los Angeles"
     elif "sanjose" in text or "san jose" in text: specs['location'] = "San Jose"
@@ -124,9 +124,19 @@ def scrape_page(url, soup):
                 desc_el = card.select_one(".product-desc p") or card.select_one(".product-desc") or card.select_one(".features") or card.select_one("ul") or card.select_one(".description")
                 desc_text = desc_el.get_text(" ", strip=True) if desc_el else ""
                 
-                try: clean_price = re.sub(r'[^\d\.]', '', price); price_val = float(clean_price)
-                except: price_val = 0.0
+                # FIX: Yearly Price Preference (User Request)
+                # Look for "$XX.XX / Year" in description
+                yearly_price_match = re.search(r'\$(\d+(?:\.\d+)?)\s*(?:/)?\s*(?:Year|Annually|yr)', desc_text, re.IGNORECASE)
+                if yearly_price_match:
+                     y_val = float(yearly_price_match.group(1))
+                     if y_val > 0:
+                         price = f"${y_val} / Year"
+                         price_val = y_val
+                else:
+                     try: clean_price = re.sub(r'[^\d\.]', '', price); price_val = float(clean_price)
+                     except: price_val = 0.0
                 
+                # ...
                 
                 # CPU Regex Enhancement (Match "1x AMD Ryzen CPU Core")
                 specs = parse_specs(desc_text, title) # Call parse_specs first to get initial values
