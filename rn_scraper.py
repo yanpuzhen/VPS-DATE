@@ -148,6 +148,9 @@ def scrape_page(url, soup):
                     
                 value_score = performance_score / (price_val if price_val > 0 else 1)
                 
+                # FILTER: Description check for cPanel
+                if "cpanel" in desc_text.lower(): continue
+                
                 found.append({
                     "id": title, 
                     "title": title,
