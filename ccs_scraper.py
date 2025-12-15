@@ -83,6 +83,12 @@ def check_pid(pid):
             # 2. Visit Product URL
             res = s.get(url, timeout=12)
         
+        # KEY FIX: Check for Redirects
+        # If PID is invalid, WHMCS redirects to /store/... or /cart.php
+        if "confproduct" not in res.url:
+            # print(f"PID {pid} redirected to {res.url} (Invalid)")
+            return None
+        
         if res.status_code != 200: return None
         
         soup = BeautifulSoup(res.text, 'html.parser')
