@@ -114,11 +114,13 @@ def scrape_page(url, soup):
 
                 performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
                 
-                # FILTER: Remove if no RAM (likely Shared Hosting)
-                if specs['ram'] == 0: continue
-                # if performance_score == 0 and specs['disk'] != "N/A": performance_score = 100 # REMOVED: Strict filter
+                # FILTER: Remove "Hosting" products (Shared/Reseller) as requested by user
+                if "hosting" in title.lower(): continue
+                
+                # FILTER: Remove if no RAM (REMOVED per user request "Memory match not advisable")
+                # if specs['ram'] == 0: continue
                     
-                if performance_score == 0: continue
+                if performance_score == 0 and specs['disk'] == "N/A": continue
                     
                 value_score = performance_score / (price_val if price_val > 0 else 1)
                 
@@ -179,6 +181,9 @@ def crawl_categories():
             for l in links:
                 href = l.get('href')
                 if href and 'rp=/store' in href:
+                    # FILTER: skip hosting categories
+                    if "hosting" in href.lower(): continue
+                    
                     full_url = BASE_URL + href if href.startswith('/') else href
                     
                     with url_lock:
@@ -214,7 +219,9 @@ def check_pid(pid):
             
             # FIX: Do not strip query params! RackNerd uses index.php?rp=...
             final_url = res.url 
-            # print(f"PID {pid} -> Status {res.status_code} -> {final_url}", flush=True) # Verbose debug
+            
+            # FILTER: skip hosting redirects
+            if "hosting" in final_url.lower(): return []
             
             with url_lock:
                 if final_url in seen_urls:
