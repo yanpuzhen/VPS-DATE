@@ -179,8 +179,29 @@ def scrape_page(url, soup):
                 title_el = soup.select_one("h1")
                 if title_el:
                     title = title_el.get_text(strip=True)
-                    price_el = soup.select_one("#order-summary .price")
-                    price = price_el.get_text(strip=True) if price_el else "0.00"
+                    
+                    # FIX: Check for billing cycle dropdown
+                    select_el = soup.select_one("select[name='billingcycle']")
+                    price = "0.00"
+                    
+                    if select_el:
+                         # Look for Annually option
+                         annually_opt = select_el.find('option', string=re.compile(r'Annually', re.I))
+                         if annually_opt:
+                             # Text format: "$22.99 USD Annually" or similar
+                             raw_text = annually_opt.get_text(strip=True)
+                             price_match = re.search(r'(\$[\d\.]+)', raw_text)
+                             if price_match:
+                                 price = f"{price_match.group(1)} / Year"
+                         else:
+                             # Fallback to selected or first option
+                             first_opt = select_el.find('option')
+                             if first_opt:
+                                 price = first_opt.get_text(strip=True).split(' ')[0] # Approx "$XX"
+                    
+                    if price == "0.00":
+                        price_el = soup.select_one("#order-summary .price")
+                        price = price_el.get_text(strip=True) if price_el else "0.00"
                     
                     specs = parse_specs(soup.get_text(), title)
                     try: clean_price = re.sub(r'[^\d\.]', '', price); price_val = float(clean_price)
