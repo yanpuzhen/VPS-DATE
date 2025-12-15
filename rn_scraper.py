@@ -9,7 +9,7 @@ from urllib.parse import urlparse, parse_qs
 
 # CONFIG
 BASE_URL = "https://my.racknerd.com"
-MAX_PID = 1500 # Production Scan Range
+MAX_PID = 2000 # Extended Range
 
 seen_urls = set()
 url_lock = threading.Lock() 
@@ -152,7 +152,8 @@ def check_pid(pid):
             s.headers.update(headers)
             res = s.get(url, allow_redirects=True, timeout=10)
             
-            final_url = res.url.split('?')[0] 
+            # FIX: Do not strip query params! RackNerd uses index.php?rp=...
+            final_url = res.url 
             
             with url_lock:
                 if final_url in seen_urls:
