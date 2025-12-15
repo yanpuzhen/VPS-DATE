@@ -9,7 +9,7 @@ from urllib.parse import urlparse, parse_qs
 
 # CONFIG
 BASE_URL = "https://my.racknerd.com"
-MAX_PID = 1500 
+MAX_PID = 1500 # Production Scan Range
 
 seen_urls = set()
 url_lock = threading.Lock() 
@@ -26,22 +26,16 @@ def parse_specs(text, title):
     
     text = text.lower() + " " + title.lower()
     
-    # RAM
     ram_match = re.search(r'(\d+(?:\.\d+)?)\s*(mb|gb)\s*ram', text)
     if ram_match:
         val = float(ram_match.group(1))
         unit = ram_match.group(2)
-        if unit == 'gb':
-             specs['ram'] = int(val * 1024)
-        else:
-             specs['ram'] = val
+        if unit == 'gb': specs['ram'] = int(val * 1024)
+        else: specs['ram'] = val
 
-    # CPU
     cpu_match = re.search(r'(\d+)\s*x?\s*(vcpu|vcore|core|cpu)', text)
-    if cpu_match:
-        specs['cpu'] = int(cpu_match.group(1))
+    if cpu_match: specs['cpu'] = int(cpu_match.group(1))
     
-    # Disk
     disk_match = re.search(r'(?:(\d+)\s*[xX]\s*)?(\d+)\s*(TB|GB)\s*(NVMe|SSD|HDD|Storage|Disk)', text, re.IGNORECASE)
     if disk_match:
         multiplier = int(disk_match.group(1)) if disk_match.group(1) else 1
@@ -52,14 +46,10 @@ def parse_specs(text, title):
         specs['disk'] = f"{final_size}{unit} {dtype}"
         if multiplier > 1: specs['disk'] = f"{multiplier}x {size_val}{unit} {dtype}"
 
-    # Bandwidth
     bw_match = re.search(r'(\d+)\s*(TB|GB|MB)\s*Bandwidth', text, re.IGNORECASE)
-    if bw_match:
-        specs['bandwidth'] = f"{bw_match.group(1)} {bw_match.group(2).upper()}"
-    elif "unlimited bandwidth" in text:
-        specs['bandwidth'] = "Unlimited"
+    if bw_match: specs['bandwidth'] = f"{bw_match.group(1)} {bw_match.group(2).upper()}"
+    elif "unlimited bandwidth" in text: specs['bandwidth'] = "Unlimited"
         
-    # Location
     if "la" in text or "los angeles" in text: specs['location'] = "Los Angeles"
     elif "sanjose" in text or "san jose" in text: specs['location'] = "San Jose"
     elif "dallas" in text: specs['location'] = "Dallas"
@@ -94,25 +84,19 @@ def scrape_page(url, soup):
                 if not btn: continue
                 link = BASE_URL + btn['href'] if btn['href'].startswith("/") else btn['href']
                 
-                desc_el = card.select_one(".features") or card.select_one("ul") or card.select_one(".description")
+                # FIX: Add .product-desc and p selector
+                desc_el = card.select_one(".product-desc p") or card.select_one(".product-desc") or card.select_one(".features") or card.select_one("ul") or card.select_one(".description")
                 desc_text = desc_el.get_text(" ", strip=True) if desc_el else ""
                 
                 try: clean_price = re.sub(r'[^\d\.]', '', price); price_val = float(clean_price)
                 except: price_val = 0.0
                 
                 specs = parse_specs(desc_text, title)
-                
-                # SCORE CALCULATION FIX
                 performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
                 
-                # If no RAM/CPU (e.g. Shared Hosting), give base score if Disk exists
-                if performance_score == 0 and specs['disk'] != "N/A":
-                    performance_score = 100 # Arbitrary base score for Shared Hosting
+                if performance_score == 0 and specs['disk'] != "N/A": performance_score = 100
                     
-                # Only skip if truly empty specs
-                if performance_score == 0 and specs['disk'] == "N/A" and specs['bandwidth'] == "N/A": 
-                    # print(f"Skipping {title} (No specs)")
-                    continue
+                if performance_score == 0 and specs['disk'] == "N/A": continue
                     
                 value_score = performance_score / (price_val if price_val > 0 else 1)
                 
@@ -129,7 +113,6 @@ def scrape_page(url, soup):
             except: pass
             
     else:
-        # Single Config Page
         if "Configure" in soup.get_text() or "Order Summary" in soup.get_text():
             try:
                 title_el = soup.select_one("h1")
@@ -143,10 +126,7 @@ def scrape_page(url, soup):
                     except: price_val = 0.0
                     
                     performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
-                    
-                    # Same Fix for Single Page
-                    if performance_score == 0 and specs['disk'] != "N/A":
-                        performance_score = 100
+                    if performance_score == 0 and specs['disk'] != "N/A": performance_score = 100
                     
                     if performance_score > 0:
                         found.append({
@@ -184,11 +164,11 @@ def check_pid(pid):
                 if "Shopping Cart" in soup.title.string or "RackNerd" in soup.title.string:
                      items = scrape_page(res.url, soup)
                      if items:
-                         print(f"PID {pid} found {len(items)} products on {final_url}")
+                         print(f"PID {pid} found {len(items)} products on {final_url}", flush=True)
                          return items
                          
     except Exception as e:
-        pass
+        print(f"Error {pid}: {e}", flush=True)
     return []
 
 def scrape_all():
