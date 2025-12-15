@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "RackNerd Shared Hosting - 30GB",
+    "title": "RackNerd Shared Hosting - 30GB",
+    "price": "$5.59 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "30GB SSD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "30 GB SSD Disk Space 2TB Monthly Transfer Unlimited Databases Unlimited Domains Free SSL Certificates CloudLinux Powered Softaculous Script Installer LiteSpeed Web Server Free Daily Backups Included c",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-30gb",
+    "value_score": 17.88908765652952,
+    "raw_price": 5.59
+  },
+  {
+    "id": "RackNerd Shared Hosting - 100GB",
+    "title": "RackNerd Shared Hosting - 100GB",
+    "price": "$9.59 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "100GB SSD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "100 GB SSD Disk Space 3TB Monthly Transfer Unlimited Databases Unlimited Domains Free SSL Certificates CloudLinux Powered Softaculous Script Installer LiteSpeed Web Server Free Daily Backups Included ",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-100gb",
+    "value_score": 10.427528675703858,
+    "raw_price": 9.59
+  },
+  {
+    "id": "RackNerd Shared Hosting - 200GB",
+    "title": "RackNerd Shared Hosting - 200GB",
+    "price": "$15.59 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "200GB SSD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "200 GB SSD Disk Space 5TB Monthly Transfer Unlimited Databases Unlimited Domains Free SSL Certificates CloudLinux Powered Softaculous Script Installer LiteSpeed Web Server Free Daily Backups Included ",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-200gb",
+    "value_score": 6.414368184733804,
+    "raw_price": 15.59
+  }
+]
