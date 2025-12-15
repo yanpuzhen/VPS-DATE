@@ -33,7 +33,21 @@ def parse_specs(text, title):
         if unit == 'gb': specs['ram'] = int(val * 1024)
         else: specs['ram'] = val
 
-    cpu_match = re.search(r'(\d+)\s*x?\s*(vcpu|vcore|core|cpu)', text)
+    # Custom RackNerd patterns
+    if specs['cpu'] == 0:
+        # "16x 2.60 GHz"
+        c_desc = re.search(r'(\d+)\s*x\s*[\d\.]+\s*GHz', text, re.IGNORECASE)
+        if c_desc: specs['cpu'] = int(c_desc.group(1))
+        
+        # "Dual Intel..." (Count Threads or assume 2x4=8 at least?)
+        # Better to look for "32x Threads"
+        c_threads = re.search(r'(\d+)\s*x\s*Threads', text, re.IGNORECASE)
+        if c_threads: 
+            # Treat threads as vCPUs for scoring
+            specs['cpu'] = int(c_threads.group(1))
+
+    # Existing logic...
+    cpu_match = re.search(r'(\d+)\s*x?\s*(?:vcpu|vcore|core|cpu)', text, re.IGNORECASE)
     if cpu_match: specs['cpu'] = int(cpu_match.group(1))
     
     disk_match = re.search(r'(?:(\d+)\s*[xX]\s*)?(\d+)\s*(TB|GB)\s*(NVMe|SSD|HDD|Storage|Disk)', text, re.IGNORECASE)
