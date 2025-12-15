@@ -137,9 +137,8 @@ def scrape_page(url, soup):
                 performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
                 
                 # FILTER: Remove "Shared/Reseller" products
-                # Do not ban "hosting" generically, as "VPS Hosting" is valid.
                 t_lower = title.lower()
-                blacklist = ["shared hosting", "reseller hosting", "web hosting", "email hosting", "cpanel", "directadmin"]
+                blacklist = ["shared hosting", "shared -", "reseller", "web hosting", "email hosting", "cpanel", "directadmin", "domains"]
                 if any(x in t_lower for x in blacklist): continue
                 
                 # FILTER: Remove if no RAM (REMOVED per user request "Memory match not advisable")
