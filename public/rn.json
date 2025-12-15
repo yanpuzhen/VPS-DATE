@@ -1,0 +1,274 @@
+[
+  {
+    "id": "Dual Intel Xeon E5-2650 v2 | 256GB RAM | 4x 2TB SSD",
+    "title": "Dual Intel Xeon E5-2650 v2 | 256GB RAM | 4x 2TB SSD",
+    "price": "$349.00 USD",
+    "specs": {
+      "ram": 262144,
+      "disk": "4x 2TB SSD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-256gb-ram-4x-2tb-ssd",
+    "value_score": 450.67736389684814,
+    "raw_price": 349.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2680 v4 | 256GB RAM | 4x 2TB SSD",
+    "title": "Dual Intel Xeon E5-2680 v4 | 256GB RAM | 4x 2TB SSD",
+    "price": "$399.00 USD",
+    "specs": {
+      "ram": 262144,
+      "disk": "4x 2TB SSD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2698-v4-256gb-ram-4x-2tb-ssd",
+    "value_score": 394.20150375939846,
+    "raw_price": 399.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2650 v2 | 128GB RAM | 1TB SSD + 3TB HDD",
+    "title": "Dual Intel Xeon E5-2650 v2 | 128GB RAM | 1TB SSD + 3TB HDD",
+    "price": "$245.00 USD",
+    "specs": {
+      "ram": 131072,
+      "disk": "1TB SSD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-128gb-ram-1tb-ssd-3tb-hdd",
+    "value_score": 320.9926530612245,
+    "raw_price": 245.0
+  },
+  {
+    "id": "AMD Ryzen 5950X | 128GB RAM | 2TB NVMe",
+    "title": "AMD Ryzen 5950X | 128GB RAM | 2TB NVMe",
+    "price": "$309.00 USD",
+    "specs": {
+      "ram": 131072,
+      "disk": "2TB NVME",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-5950x-128gb-ram-2tb-nvme",
+    "value_score": 254.50873786407766,
+    "raw_price": 309.0
+  },
+  {
+    "id": "AMD Ryzen 7950X3D | 192GB RAM | 2x 3.84TB NVMe",
+    "title": "AMD Ryzen 7950X3D | 192GB RAM | 2x 3.84TB NVMe",
+    "price": "$499.00 USD",
+    "specs": {
+      "ram": 196608,
+      "disk": "84TB NVME",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7950x3d-192gb-ram-2x-384tb-nvme",
+    "value_score": 236.4024048096192,
+    "raw_price": 499.0
+  },
+  {
+    "id": "AMD Ryzen 7950X3D | 128GB RAM | 1TB NVMe",
+    "title": "AMD Ryzen 7950X3D | 128GB RAM | 1TB NVMe",
+    "price": "$379.00 USD",
+    "specs": {
+      "ram": 131072,
+      "disk": "1TB NVME",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7950x3d-128gb-ram-1tb-nvme",
+    "value_score": 207.5018469656992,
+    "raw_price": 379.0
+  },
+  {
+    "id": "Dual E5-2690 | 32 GB RAM",
+    "title": "Dual E5-2690 | 32 GB RAM",
+    "price": "$99.00 USD",
+    "specs": {
+      "ram": 32768,
+      "disk": "N/A",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-32-gb-ram",
+    "value_score": 198.5939393939394,
+    "raw_price": 99.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2650 v2 | 64GB RAM | 1TB SSD",
+    "title": "Dual Intel Xeon E5-2650 v2 | 64GB RAM | 1TB SSD",
+    "price": "$199.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "1TB SSD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-64gb-ram-1tb-ssd",
+    "value_score": 197.59597989949748,
+    "raw_price": 199.0
+  },
+  {
+    "id": "AMD Ryzen 7600 | 64GB RAM | 1TB NVMe",
+    "title": "AMD Ryzen 7600 | 64GB RAM | 1TB NVMe",
+    "price": "$219.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "1TB NVME",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7600-64gb-ram-1tb-nvme",
+    "value_score": 179.55068493150685,
+    "raw_price": 219.0
+  },
+  {
+    "id": "AMD Ryzen 7700 | 64GB RAM | 1TB NVMe",
+    "title": "AMD Ryzen 7700 | 64GB RAM | 1TB NVMe",
+    "price": "$249.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "1TB NVME",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7700-64gb-ram-1tb-nvme",
+    "value_score": 157.9180722891566,
+    "raw_price": 249.0
+  },
+  {
+    "id": "AMD Ryzen 7900 | 64GB RAM | 1TB NVMe",
+    "title": "AMD Ryzen 7900 | 64GB RAM | 1TB NVMe",
+    "price": "$269.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "1TB NVME",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7900-64gb-ram-1tb-nvme",
+    "value_score": 146.17695167286246,
+    "raw_price": 269.0
+  },
+  {
+    "id": "Dual E5-2690 | 16 GB RAM",
+    "title": "Dual E5-2690 | 16 GB RAM",
+    "price": "$79.00 USD",
+    "specs": {
+      "ram": 16384,
+      "disk": "N/A",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-16-gb-ram",
+    "value_score": 124.43544303797468,
+    "raw_price": 79.0
+  },
+  {
+    "id": "Intel Xeon E3-1270 v3 | 32GB RAM | 2x 1TB SSD",
+    "title": "Intel Xeon E3-1270 v3 | 32GB RAM | 2x 1TB SSD",
+    "price": "$169.00 USD",
+    "specs": {
+      "ram": 32768,
+      "disk": "2x 1TB SSD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/intel-xeon-e3-1270-v3-32gb-ram-2x-1tb-ssd",
+    "value_score": 116.33609467455621,
+    "raw_price": 169.0
+  },
+  {
+    "id": "Dual E5-2690 | 8 GB RAM",
+    "title": "Dual E5-2690 | 8 GB RAM",
+    "price": "$59.00 USD",
+    "specs": {
+      "ram": 8192,
+      "disk": "N/A",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-8-gb-ram",
+    "value_score": 83.30847457627118,
+    "raw_price": 59.0
+  },
+  {
+    "id": "[STORAGE SERVER SPECIAL] Dual Xeon E5-2640 V2 | 64 GB RAM | 10x 16 TB SAS + 256 GB SSD | RAID + BBU",
+    "title": "[STORAGE SERVER SPECIAL] Dual Xeon E5-2640 V2 | 64 GB RAM | 10x 16 TB SAS + 256 GB SSD | RAID + BBU",
+    "price": "$479.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "256GB SSD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/storage-server-special-dual-xeon-e5-2640-v2-64-gb-ram-10x-16-tb-sas-256-gb-ssd-raid-bbu",
+    "value_score": 82.09102296450939,
+    "raw_price": 479.0
+  },
+  {
+    "id": "Intel Xeon E3-1230 v2 | 16GB RAM | 480 GB SSD",
+    "title": "Intel Xeon E3-1230 v2 | 16GB RAM | 480 GB SSD",
+    "price": "$139.00 USD",
+    "specs": {
+      "ram": 16384,
+      "disk": "480GB SSD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/intel-xeon-e3-1230-v2-16gb-ram-480-gb-ssd",
+    "value_score": 70.72230215827338,
+    "raw_price": 139.0
+  },
+  {
+    "id": "Dual E5-2690 | 4 GB RAM",
+    "title": "Dual E5-2690 | 4 GB RAM",
+    "price": "$39.00 USD",
+    "specs": {
+      "ram": 4096,
+      "disk": "N/A",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-4-gb-ram",
+    "value_score": 63.01538461538461,
+    "raw_price": 39.0
+  }
+]
