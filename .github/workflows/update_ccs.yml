@@ -1,0 +1,44 @@
+name: Auto Scrape CCS Data (Hourly)
+
+on:
+  schedule:
+    - cron: '30 * * * *' # Run at minute 30 to stagger with Dedirock (minute 0)
+  workflow_dispatch:
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run CCS Scraper
+        run: python ccs_scraper.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git status
+          if [[ -n $(git status --porcelain public/ccs.json) ]]; then
+            echo "Data changed, committing..."
+            git add public/ccs.json
+            git commit -m "Auto-update CCS data [skip ci]"
+            git push
+          else
+            echo "No changes in ccs.json."
+          fi
