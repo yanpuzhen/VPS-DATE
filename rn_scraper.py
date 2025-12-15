@@ -143,17 +143,56 @@ def scrape_page(url, soup):
 
     return found
 
+def crawl_categories():
+    print("Crawling Store Categories...")
+    url = f"{BASE_URL}/index.php?rp=/store"
+    try:
+        res = requests.get(url, timeout=15, headers={'User-Agent': 'Mozilla/5.0...'})
+        if res.status_code == 200:
+            soup = BeautifulSoup(res.text, 'html.parser')
+            # Sidebar categories or Main list
+            links = soup.select(".list-group-item") or soup.select(".nav-link")
+            print(f"Found {len(links)} potential category links.")
+            
+            for l in links:
+                href = l.get('href')
+                if href and 'rp=/store' in href:
+                    full_url = BASE_URL + href if href.startswith('/') else href
+                    
+                    with url_lock:
+                        if full_url in seen_urls: continue
+                        seen_urls.add(full_url)
+                    
+                    # Scrape this category
+                    try:
+                        print(f"Scraping Category: {full_url}")
+                        cat_res = requests.get(full_url, timeout=15, headers={'User-Agent': 'Mozilla/5.0...'})
+                        cat_soup = BeautifulSoup(cat_res.text, 'html.parser')
+                        items = scrape_page(full_url, cat_soup)
+                        if items:
+                            print(f"Category found {len(items)} items.", flush=True)
+                            for p in items:
+                                key = f"{p['title']}_{p['raw_price']}"
+                                all_products[key] = p
+                    except Exception as e:
+                        print(f"Cat Error {full_url}: {e}")
+                        
+    except Exception as e:
+        print(f"Crawl Error: {e}")
+
 def check_pid(pid):
     url = f"https://my.racknerd.com/cart.php?a=confproduct&i={pid}"
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
     
     try:
+        # print(f"Checking PID {pid}...", flush=True)
         with requests.Session() as s:
             s.headers.update(headers)
             res = s.get(url, allow_redirects=True, timeout=10)
             
             # FIX: Do not strip query params! RackNerd uses index.php?rp=...
             final_url = res.url 
+            # print(f"PID {pid} -> Status {res.status_code} -> {final_url}", flush=True) # Verbose debug
             
             with url_lock:
                 if final_url in seen_urls:
@@ -173,6 +212,8 @@ def check_pid(pid):
     return []
 
 def scrape_all():
+    crawl_categories() # Step 1: Discover known categories
+    
     print(f"Starting Hybrid PID Scan 0-{MAX_PID}...")
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
