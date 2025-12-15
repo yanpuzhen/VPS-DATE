@@ -105,12 +105,20 @@ def scrape_page(url, soup):
                 try: clean_price = re.sub(r'[^\d\.]', '', price); price_val = float(clean_price)
                 except: price_val = 0.0
                 
-                specs = parse_specs(desc_text, title)
+                
+                # CPU Regex Enhancement (Match "1x AMD Ryzen CPU Core")
+                specs = parse_specs(desc_text, title) # Call parse_specs first to get initial values
+                if specs['cpu'] == 0:
+                    spec_cpu = re.search(r'(\d+)\s*x?\s*(?:[A-Za-z0-9\-\.]+\s+){0,4}(?:vCPU|vCore|Core|CPU)', desc_text, re.IGNORECASE)
+                    if spec_cpu: specs['cpu'] = int(spec_cpu.group(1))
+
                 performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
                 
-                if performance_score == 0 and specs['disk'] != "N/A": performance_score = 100
+                # FILTER: Remove if no RAM (likely Shared Hosting)
+                if specs['ram'] == 0: continue
+                # if performance_score == 0 and specs['disk'] != "N/A": performance_score = 100 # REMOVED: Strict filter
                     
-                if performance_score == 0 and specs['disk'] == "N/A": continue
+                if performance_score == 0: continue
                     
                 value_score = performance_score / (price_val if price_val > 0 else 1)
                 
