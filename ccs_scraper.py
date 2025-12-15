@@ -2,13 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import json
-import concurrent.futures
-import time
 import os
+import concurrent.futures
 
 # CONFIG
-BASE_URL = "https://cloud.colocrossing.com/cart.php?a=confproduct&i={0}"
-MAIN_URL = "https://cloud.colocrossing.com/cart.php"
+BASE_URL = "https://cloud.colocrossing.com"
+STORE_HOME = "https://cloud.colocrossing.com/index.php?rp=/store"
 
 def parse_specs(text, title):
     specs = {
@@ -19,6 +18,7 @@ def parse_specs(text, title):
         "location": "Buffalo" # Default
     }
     
+    # Normalize text
     text = text.lower() + " " + title.lower()
     
     # RAM
@@ -67,130 +67,118 @@ def parse_specs(text, title):
 
     return specs
 
-def check_pid(pid):
+def scrape_category(cat_url):
+    print(f"Scraping Category: {cat_url}")
+    products = []
     try:
-        url = BASE_URL.format(pid)
-        
-        # KEY FIX: Use Session and Prime Cookies for EVERY Check
-        # (Overhead acceptable for accuracy)
-        with requests.Session() as s:
-            s.headers.update({
-                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-            })
-            # 1. Prime Cookies by visiting main cart
-            s.get(MAIN_URL, timeout=10)
-            
-            # 2. Visit Product URL
-            res = s.get(url, timeout=12)
-        
-        # KEY FIX: Check for Redirects
-        # If PID is invalid, WHMCS redirects to /store/... or /cart.php
-        if "confproduct" not in res.url:
-            # print(f"PID {pid} redirected to {res.url} (Invalid)")
-            return None
-        
-        if res.status_code != 200: return None
+        res = requests.get(cat_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'})
+        if res.status_code != 200: return []
         
         soup = BeautifulSoup(res.text, 'html.parser')
-        text_dump = soup.get_text(" ", strip=True)
-            
-        # Title Extraction
-        title = ""
         
-        # 0. H4 Priority (ColoCrossing Custom Theme)
-        h4 = soup.select_one("h4")
-        if h4: 
-            t = h4.get_text(strip=True)
-            # Filter generic H4s if any
-            if len(t) > 3 and "Overview" not in t and "Categorie" not in t:
-                title = t
+        # Select all price tables
+        cards = soup.select(".price-table")
         
-        # Fallbacks
-        if not title:
-            hostim_title = soup.select_one(".product-title")
-            if hostim_title: title = hostim_title.get_text(strip=True)
-
-        if not title:
-            h1 = soup.select_one("h1")
-            if h1:
-                t = h1.get_text(strip=True).replace("Configure", "").strip()
-                if "Shopping Cart" not in t: title = t
-
-        if not title or title == "Shopping Cart" or "Configure" in title: 
-             # Last diff check
-             if "1GB RAM" in res.text and not title:
-                 # Debug fallback
-                 pass
-             else:
-                 return None
-
-        # Price Extraction
-        price = "0.00"
-        
-        # Look for price in summary
-        price_el = soup.select_one("#order-summary .price") or soup.select_one(".amt") or soup.select_one(".product-pricing") or soup.select_one(".total-due-today .amt")
-        
-        # Also check dropdowns
-        billing_select = soup.select_one("select[name='billingcycle']")
-        if billing_select:
-             # Logic to find price in options
-             pass
-
-        if price_el:
-            price = price_el.get_text(strip=True)
-            
-        # Specs logic
-        desc_text = soup.select_one(".product-info") or soup.select_one(".description")
-        desc_str = desc_text.get_text(" ", strip=True) if desc_text else text_dump
-        
-        specs = parse_specs(desc_str, title)
-            
-        # Normalize Price
-        try:
-            clean_price = re.sub(r'[^\d\.]', '', price)
-            price_val = float(clean_price)
-        except:
-            price_val = 999.0 
-        
-        if price_val < 0.1: pass
-
-        performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
-        if performance_score == 0: return None
-        
-        value_score = performance_score / (price_val if price_val > 0 else 1)
-        
-        print(f"FOUND PID {pid}: {title} | {specs['location']} | {specs['ram']}MB | ${price_val}")
-        
-        return {
-            "id": pid,
-            "title": title,
-            "price": price,
-            "specs": specs,
-            "description": desc_str[:200],
-            "purchase_url": url,
-            "value_score": value_score,
-            "raw_price": price_val
-        }
-            
+        for card in cards:
+            try:
+                # Title
+                title_el = card.select_one(".top-head h4")
+                if not title_el: continue
+                title = title_el.get_text(strip=True)
+                
+                # Price
+                price_el = card.select_one(".price")
+                price = price_el.get_text(strip=True) if price_el else "0.00"
+                
+                # Link
+                btn = card.select_one("a.order-button")
+                link = BASE_URL + btn['href'] if btn and btn['href'].startswith("/") else (btn['href'] if btn else "")
+                
+                # Description (Specs)
+                desc_el = card.select_one("ul")
+                desc_text = desc_el.get_text(" ", strip=True) if desc_el else ""
+                
+                # Clean Price
+                try:
+                    clean_price = re.sub(r'[^\d\.]', '', price)
+                    price_val = float(clean_price)
+                except:
+                    price_val = 0.0
+                
+                # Parse Specs
+                specs = parse_specs(desc_text, title)
+                
+                # Calculate Score
+                performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
+                if performance_score == 0: continue
+                value_score = performance_score / (price_val if price_val > 0 else 1)
+                
+                products.append({
+                    "id": title, # Use title as ID since proper PID is hidden behind redirection
+                    "title": title,
+                    "price": price,
+                    "specs": specs,
+                    "description": desc_text[:200],
+                    "purchase_url": link,
+                    "value_score": value_score,
+                    "raw_price": price_val
+                })
+                print(f"  Found: {title} | {specs['ram']}MB | ${price_val}")
+                
+            except Exception as e:
+                print(f"  Error parsing card: {e}")
+                
     except Exception as e:
-        # print(f"Error {pid}: {e}")
-        pass
-    return None
+        print(f"Error accessing {cat_url}: {e}")
+        
+    return products
 
 def scrape_all():
-    print("Starting concurrent scan of ColoCrossing PIDs 0-1000...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor: # Reduced workers to be nice
-        results = list(executor.map(check_pid, range(1000))) 
+    print("Starting Spider Scan (Categories)...")
     
-    clean_results = [r for r in results if r]
-    print(f"Total found: {len(clean_results)}")
+    # 1. Get Categories
+    res = requests.get(STORE_HOME, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'})
+    soup = BeautifulSoup(res.text, 'html.parser')
     
-    # Sort by value score descending
+    categories = []
+    seen_urls = set()
+    
+    # Find sidebar or menu links to /store/
+    for a in soup.find_all("a", href=True):
+        href = a['href']
+        if "/store/" in href and "index.php?rp=" in href:
+             if href not in seen_urls:
+                 # Check if relative or absolute
+                 full_url = BASE_URL + href if href.startswith("/") else href
+                 if full_url not in seen_urls:
+                    categories.append(full_url)
+                    seen_urls.add(full_url)
+    
+    print(f"Found {len(categories)} categories.")
+    
+    all_products = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        results = list(executor.map(scrape_category, categories))
+        for r in results:
+            all_products.extend(r)
+            
+    # Deduplicate by Title + Price (sometimes categories overlap)
+    unique_products = {}
+    for p in all_products:
+        key = f"{p['title']}_{p['raw_price']}"
+        if key not in unique_products:
+            unique_products[key] = p
+            
+    final_list = list(unique_products.values())
+    
+    print(f"Total Unique Products: {len(final_list)}")
+    
+    # Sort
     os.makedirs("public", exist_ok=True)
-    clean_results.sort(key=lambda x: x['value_score'], reverse=True)
+    final_list.sort(key=lambda x: x['value_score'], reverse=True)
     
     with open("public/ccs.json", "w", encoding='utf-8') as f:
-        json.dump(clean_results, f, indent=2, ensure_ascii=False)
+        json.dump(final_list, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     scrape_all()
