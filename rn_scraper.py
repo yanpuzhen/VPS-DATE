@@ -9,9 +9,38 @@ from urllib.parse import urlparse, parse_qs
 
 # CONFIG
 BASE_URL = "https://my.racknerd.com"
-MAX_PID = 2000 # Extended Range
+MAX_PID = 10000 # Extended Range for hidden products
 
-seen_urls = set()
+# ... (omitted)
+
+                # FILTER: Remove "Shared/Reseller" products
+                t_lower = title.lower()
+                blacklist = ["shared hosting", "reseller hosting", "web hosting", "email hosting", "cpanel", "directadmin"]
+                if any(x in t_lower for x in blacklist): continue
+                
+                if performance_score == 0 and specs['disk'] == "N/A": continue
+                    
+                value_score = performance_score / (price_val if price_val > 0 else 1)
+
+# ...
+
+def crawl_categories():
+    # ...
+            for l in links:
+                href = l.get('href')
+                if href and 'rp=/store' in href:
+                    # FILTER: skip shared/reseller categories
+                    h_lower = href.lower()
+                    if "shared" in h_lower or "reseller" in h_lower or "web-hosting" in h_lower: continue
+
+# ...
+
+def check_pid(pid):
+    # ...
+            # FILTER: skip shared/reseller redirects
+            f_lower = final_url.lower()
+            if "shared" in f_lower or "reseller" in f_lower or "web-hosting" in f_lower: return []
+
 url_lock = threading.Lock() 
 all_products = {}
 
@@ -114,8 +143,11 @@ def scrape_page(url, soup):
 
                 performance_score = (specs['ram'] * 0.6) + (specs['cpu'] * 0.4)
                 
-                # FILTER: Remove "Hosting" products (Shared/Reseller) as requested by user
-                if "hosting" in title.lower(): continue
+                # FILTER: Remove "Shared/Reseller" products
+                # Do not ban "hosting" generically, as "VPS Hosting" is valid.
+                t_lower = title.lower()
+                blacklist = ["shared hosting", "reseller hosting", "web hosting", "email hosting", "cpanel", "directadmin"]
+                if any(x in t_lower for x in blacklist): continue
                 
                 # FILTER: Remove if no RAM (REMOVED per user request "Memory match not advisable")
                 # if specs['ram'] == 0: continue
@@ -181,8 +213,9 @@ def crawl_categories():
             for l in links:
                 href = l.get('href')
                 if href and 'rp=/store' in href:
-                    # FILTER: skip hosting categories
-                    if "hosting" in href.lower(): continue
+                    # FILTER: skip shared/reseller categories
+                    h_lower = href.lower()
+                    if "shared" in h_lower or "reseller" in h_lower or "web-hosting" in h_lower: continue
                     
                     full_url = BASE_URL + href if href.startswith('/') else href
                     
@@ -220,8 +253,9 @@ def check_pid(pid):
             # FIX: Do not strip query params! RackNerd uses index.php?rp=...
             final_url = res.url 
             
-            # FILTER: skip hosting redirects
-            if "hosting" in final_url.lower(): return []
+            # FILTER: skip shared/reseller redirects
+            f_lower = final_url.lower()
+            if "shared" in f_lower or "reseller" in f_lower or "web-hosting" in f_lower: return []
             
             with url_lock:
                 if final_url in seen_urls:
