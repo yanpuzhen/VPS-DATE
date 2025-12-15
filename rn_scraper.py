@@ -11,6 +11,7 @@ from urllib.parse import urlparse, parse_qs
 BASE_URL = "https://my.racknerd.com"
 MAX_PID = 2000 # Standard Range
 
+seen_urls = set()
 # ... (omitted)
 
 
