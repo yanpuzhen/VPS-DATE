@@ -9,7 +9,7 @@ from urllib.parse import urlparse, parse_qs
 
 # CONFIG
 BASE_URL = "https://my.racknerd.com"
-MAX_PID = 10000 # Extended Range for hidden products
+MAX_PID = 2000 # Standard Range
 
 # ... (omitted)
 
