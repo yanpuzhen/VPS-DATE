@@ -1072,6 +1072,22 @@
     "raw_price": 17.68
   },
   {
+    "id": 62,
+    "title": "Promo VPS Saver NY",
+    "price": "$17.94 USD Semi-Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 1024,
+      "disk": "10GB SSD",
+      "bandwidth": "1 TB",
+      "location": "New York"
+    },
+    "description": "Promo VPS Saver NY 1 GB RAM 1x vCore CPU 10 GB SSD 1 TB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=62",
+    "value_score": 34.247491638795985,
+    "raw_price": 17.94
+  },
+  {
     "id": 72,
     "title": "Promo VPS Saver LA",
     "price": "$17.94 USD Semi-Annually",
