@@ -144,22 +144,6 @@
     "raw_price": 119.0
   },
   {
-    "id": 47,
-    "title": "E5-2697v3 (14 cores)",
-    "price": "$131.00 USD Monthly",
-    "specs": {
-      "cpu": 14,
-      "ram": 65536,
-      "disk": "500GB SSD",
-      "bandwidth": "15 TB",
-      "location": "US"
-    },
-    "description": "E5-2697v3 (14 cores) E5-2697v3 (14 cores) 64GB RAM 500GB SSD Software 15TB Bandwidth 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=47",
-    "value_score": 300.20763358778623,
-    "raw_price": 131.0
-  },
-  {
     "id": 42,
     "title": "Dual L5520 (8 cores)",
     "price": "$70.00 USD Monthly",
