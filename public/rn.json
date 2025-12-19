@@ -16,6 +16,38 @@
     "raw_price": 155.0
   },
   {
+    "id": "Dual Intel Xeon E5-2650 v2 | 256GB RAM | 4x 2TB SSD",
+    "title": "Dual Intel Xeon E5-2650 v2 | 256GB RAM | 4x 2TB SSD",
+    "price": "$349.00 USD",
+    "specs": {
+      "ram": 262144,
+      "disk": "4x 2TB SSD",
+      "cpu": 32,
+      "bandwidth": "100 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo) 256 GB RAM 4x 2 TB SSD 100 TB Monthly Transfer 1Gbps Network Port Premium Network Blend /27 IPv4 Allocation - 29 Usable IPs Deploy",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-256gb-ram-4x-2tb-ssd",
+    "value_score": 450.7140401146131,
+    "raw_price": 349.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2680 v4 | 256GB RAM | 4x 2TB SSD",
+    "title": "Dual Intel Xeon E5-2680 v4 | 256GB RAM | 4x 2TB SSD",
+    "price": "$399.00 USD",
+    "specs": {
+      "ram": 262144,
+      "disk": "4x 2TB SSD",
+      "cpu": 56,
+      "bandwidth": "100 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2680 v4 28x 2.40 GHz (56x Threads, 3.30 GHz Turbo) 256 GB RAM 4x 2 TB SSD 100 TB Monthly Transfer 1Gbps Network Port Premium Network Blend /26 IPv4 Allocation - 61 Usable IPs Deploy",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2698-v4-256gb-ram-4x-2tb-ssd",
+    "value_score": 394.25764411027563,
+    "raw_price": 399.0
+  },
+  {
     "id": "DEDICATED - Intel Xeon E3-1240 V3 Special",
     "title": "DEDICATED - Intel Xeon E3-1240 V3 Special",
     "price": "$59.00 USD",
@@ -30,6 +62,22 @@
     "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/dedicated-intel-xeon-e3-1240-v3-special",
     "value_score": 333.2610169491525,
     "raw_price": 59.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2650 v2 | 128GB RAM | 1TB SSD + 3TB HDD",
+    "title": "Dual Intel Xeon E5-2650 v2 | 128GB RAM | 1TB SSD + 3TB HDD",
+    "price": "$245.00 USD",
+    "specs": {
+      "ram": 131072,
+      "disk": "1TB SSD",
+      "cpu": 32,
+      "bandwidth": "50 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo) 128 GB RAM 1x 1TB SSD 1x 3TB HDD 50 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Deployed in Firs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-128gb-ram-1tb-ssd-3tb-hdd",
+    "value_score": 321.0448979591837,
+    "raw_price": 245.0
   },
   {
     "id": "AMD Ryzen 5950X | 128GB RAM | 2TB NVMe",
@@ -110,6 +158,22 @@
     "purchase_url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-32-gb-ram",
     "value_score": 198.62626262626262,
     "raw_price": 99.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2650 v2 | 64GB RAM | 1TB SSD",
+    "title": "Dual Intel Xeon E5-2650 v2 | 64GB RAM | 1TB SSD",
+    "price": "$199.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "1TB SSD",
+      "cpu": 32,
+      "bandwidth": "100 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo) 64 GB RAM 1 TB SSD 100 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Deployed in First Available U",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-64gb-ram-1tb-ssd",
+    "value_score": 197.6603015075377,
+    "raw_price": 199.0
   },
   {
     "id": "AMD Ryzen 7600 | 64GB RAM | 1TB NVMe",
@@ -256,6 +320,22 @@
     "raw_price": 79.0
   },
   {
+    "id": "Intel Xeon E3-1270 v3 | 32GB RAM | 2x 1TB SSD",
+    "title": "Intel Xeon E3-1270 v3 | 32GB RAM | 2x 1TB SSD",
+    "price": "$169.00 USD",
+    "specs": {
+      "ram": 32768,
+      "disk": "2x 1TB SSD",
+      "cpu": 8,
+      "bandwidth": "35 TB",
+      "location": "Global"
+    },
+    "description": "Intel Xeon E3-1270 v3 - 4x 3.50 GHz (8x Threads @ 3.90 GHz with HT) 32 GB RAM 2x 1 TB SSD 35 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Multiple Datacenter Locations",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/intel-xeon-e3-1270-v3-32gb-ram-2x-1tb-ssd",
+    "value_score": 116.35502958579882,
+    "raw_price": 169.0
+  },
+  {
     "id": "KVM-4GB",
     "title": "KVM-4GB",
     "price": "$24.59 USD",
@@ -304,6 +384,22 @@
     "raw_price": 18.66
   },
   {
+    "id": "[STORAGE SERVER SPECIAL] Dual Xeon E5-2640 V2 | 64 GB RAM | 10x 16 TB SAS + 256 GB SSD | RAID + BBU",
+    "title": "[STORAGE SERVER SPECIAL] Dual Xeon E5-2640 V2 | 64 GB RAM | 10x 16 TB SAS + 256 GB SSD | RAID + BBU",
+    "price": "$479.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "256GB SSD",
+      "cpu": 16,
+      "bandwidth": "200 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2640 V2 16x 2.00 GHz / 32 Threads 64 GB RAM 256 GB SSD (primary drive) 10x 16TB SAS Enterprise Drives Premium Hardware RAID Controller w/ BBU 200 TB Monthly Transfer 1Gbps Network P",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/storage-server-special-dual-xeon-e5-2640-v2-64-gb-ram-10x-16-tb-sas-256-gb-ssd-raid-bbu",
+    "value_score": 82.10438413361169,
+    "raw_price": 479.0
+  },
+  {
     "id": "4 GB KVM VPS (Black Friday 2025)",
     "title": "4 GB KVM VPS (Black Friday 2025)",
     "price": "$29.98 / Year",
@@ -350,6 +446,22 @@
     "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/8-gb-kvm-vps-black-friday-2025",
     "value_score": 78.69419107057128,
     "raw_price": 62.49
+  },
+  {
+    "id": "Intel Xeon E3-1230 v2 | 16GB RAM | 480 GB SSD",
+    "title": "Intel Xeon E3-1230 v2 | 16GB RAM | 480 GB SSD",
+    "price": "$139.00 USD",
+    "specs": {
+      "ram": 16384,
+      "disk": "480GB SSD",
+      "cpu": 8,
+      "bandwidth": "35 TB",
+      "location": "Global"
+    },
+    "description": "Intel Xeon E3-1230 v2 - 4x 3.30 GHz (8x Threads @ 3.30 GHz with HT) 16 GB RAM 480 GB SSD 35 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Multiple Datacenter Locations",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/intel-xeon-e3-1230-v2-16gb-ram-480-gb-ssd",
+    "value_score": 70.7453237410072,
+    "raw_price": 139.0
   },
   {
     "id": "Dual E5-2690 | 4 GB RAM",
