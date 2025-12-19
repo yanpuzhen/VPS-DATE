@@ -992,22 +992,6 @@
     "raw_price": 31.2
   },
   {
-    "id": 64,
-    "title": "Promo VPS Value NY",
-    "price": "$47.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 3072,
-      "disk": "40GB SSD",
-      "bandwidth": "3 TB",
-      "location": "New York"
-    },
-    "description": "Promo VPS Value NY 3 GB RAM 2x vCore CPU 40 GB SSD 3 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=64",
-    "value_score": 38.44806007509386,
-    "raw_price": 47.94
-  },
-  {
     "id": 74,
     "title": "Promo VPS Value LA",
     "price": "$47.94 USD Semi-Annually",
