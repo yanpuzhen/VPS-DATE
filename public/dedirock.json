@@ -464,6 +464,22 @@
     "raw_price": 28.68
   },
   {
+    "id": 83,
+    "title": "Promo VPS Saver LA  - Yearly",
+    "price": "$11.88 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 1024,
+      "disk": "10GB SSD",
+      "bandwidth": "1 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Promo VPS Saver LA  - Yearly 1 GB RAM 1x vCore CPU 10 GB SSD 1 TB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=83",
+    "value_score": 51.71717171717171,
+    "raw_price": 11.88
+  },
+  {
     "id": 84,
     "title": "Promo VPS Saver NY - Yearly",
     "price": "$11.88 USD Annually",
