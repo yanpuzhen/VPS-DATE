@@ -176,6 +176,22 @@
     "raw_price": 70.0
   },
   {
+    "id": 216,
+    "title": "Promo VPS Saver LA CM LEB 2025",
+    "price": "$6.45 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2560,
+      "disk": "15GB SSD",
+      "bandwidth": "2 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Promo VPS Saver LA CM LEB 2025 2.5 GB RAM 1x vCore CPU 15 GB SSD 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=216",
+    "value_score": 238.13953488372093,
+    "raw_price": 6.45
+  },
+  {
     "id": 217,
     "title": "Promo VPS Saver NY CM LEB 2025",
     "price": "$6.45 USD Annually",
@@ -190,6 +206,22 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=217",
     "value_score": 238.13953488372093,
     "raw_price": 6.45
+  },
+  {
+    "id": 220,
+    "title": "Promo VPS Saver LA FAT32 2025",
+    "price": "$6.59 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2048,
+      "disk": "15GB SSD",
+      "bandwidth": "2 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Promo VPS Saver LA FAT32 2025 2 GB RAM 1x vCore CPU 15 GB SSD 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=220",
+    "value_score": 186.46433990895295,
+    "raw_price": 6.59
   },
   {
     "id": 221,
@@ -208,6 +240,22 @@
     "raw_price": 6.59
   },
   {
+    "id": 201,
+    "title": "Promo VPS Saver LA BF 2025",
+    "price": "$6.75 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2048,
+      "disk": "30GB SSD",
+      "bandwidth": "2 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Promo VPS Saver LA BF 2025 2 GB RAM 1x vCore CPU 30 GB SSD 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=201",
+    "value_score": 182.04444444444445,
+    "raw_price": 6.75
+  },
+  {
     "id": 207,
     "title": "Promo VPS Saver NY BF 2025",
     "price": "$6.75 USD Annually",
@@ -224,6 +272,22 @@
     "raw_price": 6.75
   },
   {
+    "id": 223,
+    "title": "Promo VPS Saver LA PMD 2025",
+    "price": "$6.99 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2048,
+      "disk": "20GB SSD",
+      "bandwidth": "2 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Promo VPS Saver LA PMD 2025 2 GB RAM 1x vCore CPU 20 GB SSD 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=223",
+    "value_score": 175.793991416309,
+    "raw_price": 6.99
+  },
+  {
     "id": 224,
     "title": "Promo VPS Saver NY PMD 2025",
     "price": "$6.99 USD Annually",
@@ -238,6 +302,22 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=224",
     "value_score": 175.793991416309,
     "raw_price": 6.99
+  },
+  {
+    "id": 182,
+    "title": "LET $7 KVM Super Sale LA",
+    "price": "$7.00 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2048,
+      "disk": "30GB SSD",
+      "bandwidth": "2 TB",
+      "location": "Los Angeles"
+    },
+    "description": "LET $7 KVM Super Sale LA 2 GB RAM 1x vCore CPU 30 GB SSD 2 TB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=182",
+    "value_score": 175.54285714285714,
+    "raw_price": 7.0
   },
   {
     "id": 183,
@@ -270,6 +350,22 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=40",
     "value_score": 166.64406779661016,
     "raw_price": 59.0
+  },
+  {
+    "id": 213,
+    "title": "Promo VPS Saver LA BF LEB 2025",
+    "price": "$6.85 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 1536,
+      "disk": "25GB SSD",
+      "bandwidth": "5 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Promo VPS Saver LA BF LEB 2025 1.5 GB RAM 1x vCore CPU 25 GB SSD 2.5 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=213",
+    "value_score": 134.54014598540147,
+    "raw_price": 6.85
   },
   {
     "id": 214,
