@@ -1040,22 +1040,6 @@
     "raw_price": 16.68
   },
   {
-    "id": 197,
-    "title": "Storage Promo Essentials  BF 2025",
-    "price": "$17.38 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 1024,
-      "disk": "N/A",
-      "bandwidth": "2 TB",
-      "location": "US"
-    },
-    "description": "Storage Promo Essentials  BF 2025 1 GB RAM 1x vCore CPU 1 TB Space 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=197",
-    "value_score": 35.35097813578826,
-    "raw_price": 17.38
-  },
-  {
     "id": 107,
     "title": "Storage Promo Essentials BF",
     "price": "$17.68 USD Annually",
