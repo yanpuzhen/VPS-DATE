@@ -1,21 +1,5 @@
 [
   {
-    "id": 50,
-    "title": "2x E5-2680v2 (20 cores)",
-    "price": "$138.00 USD Monthly",
-    "specs": {
-      "cpu": 20,
-      "ram": 196608,
-      "disk": "1TB SSD",
-      "bandwidth": "20 TB",
-      "location": "US"
-    },
-    "description": "2x E5-2680v2 (20 cores) 2x E5-2680v2 (20 cores) 192GB RAM 1 TB SSD Software 20TB Bandwidth 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=50",
-    "value_score": 854.8753623188405,
-    "raw_price": 138.0
-  },
-  {
     "id": 186,
     "title": "Hostoy Cloud VPS Los Angeles - $3 KVM Monthly LA",
     "price": "$3.00 USD Monthly",
@@ -48,22 +32,6 @@
     "raw_price": 3.0
   },
   {
-    "id": 51,
-    "title": "2x E5-2697v3 (28 cores)",
-    "price": "$202.00 USD Monthly",
-    "specs": {
-      "cpu": 28,
-      "ram": 262144,
-      "disk": "1TB NVME",
-      "bandwidth": "25 TB",
-      "location": "US"
-    },
-    "description": "2x E5-2697v3 (28 cores) 2x E5-2697v3 (28 cores) 256 GB RAM 1 TB NVMe Hardware RAID + BBU 25TB Bandwidth 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=51",
-    "value_score": 778.7009900990099,
-    "raw_price": 202.0
-  },
-  {
     "id": 52,
     "title": "4x E5-4650v2 (40 cores)",
     "price": "$215.00 USD Monthly",
@@ -78,22 +46,6 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=52",
     "value_score": 731.6390697674418,
     "raw_price": 215.0
-  },
-  {
-    "id": 46,
-    "title": "Dual E5-2670 (16 cores)",
-    "price": "$119.00 USD Monthly",
-    "specs": {
-      "cpu": 16,
-      "ram": 131072,
-      "disk": "500GB SSD",
-      "bandwidth": "20 TB",
-      "location": "US"
-    },
-    "description": "Dual E5-2670 (16 cores) Dual E5-2670 (16 cores) 128GB RAM 500GB SSD Hardware RAID + BBU 20TB Bandwidth 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=46",
-    "value_score": 660.9210084033613,
-    "raw_price": 119.0
   },
   {
     "id": 53,
@@ -112,22 +64,6 @@
     "raw_price": 263.0
   },
   {
-    "id": 44,
-    "title": "E3-1270v5 (4 cores)",
-    "price": "$102.00 USD Monthly",
-    "specs": {
-      "cpu": 4,
-      "ram": 65536,
-      "disk": "500GB SSD",
-      "bandwidth": "15 TB",
-      "location": "US"
-    },
-    "description": "E3-1270v5 (4 cores) E3-1270v6 (4 cores) 64GB RAM 500GB SSD Software/BIOS 15TB Bandwidth 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=44",
-    "value_score": 385.52156862745096,
-    "raw_price": 102.0
-  },
-  {
     "id": 48,
     "title": "E5-2667v3 (8 cores)",
     "price": "$119.00 USD Monthly",
@@ -142,38 +78,6 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=48",
     "value_score": 330.46050420168064,
     "raw_price": 119.0
-  },
-  {
-    "id": 47,
-    "title": "E5-2697v3 (14 cores)",
-    "price": "$131.00 USD Monthly",
-    "specs": {
-      "cpu": 14,
-      "ram": 65536,
-      "disk": "500GB SSD",
-      "bandwidth": "15 TB",
-      "location": "US"
-    },
-    "description": "E5-2697v3 (14 cores) E5-2697v3 (14 cores) 64GB RAM 500GB SSD Software 15TB Bandwidth 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=47",
-    "value_score": 300.20763358778623,
-    "raw_price": 131.0
-  },
-  {
-    "id": 42,
-    "title": "Dual L5520 (8 cores)",
-    "price": "$70.00 USD Monthly",
-    "specs": {
-      "cpu": 8,
-      "ram": 32768,
-      "disk": "500GB SSD",
-      "bandwidth": "10 TB",
-      "location": "US"
-    },
-    "description": "Dual L5520 (8 cores) Dual L5520 (8 cores) 32GB RAM 500GB SSD Software/BIOS 10TB Bandwidth 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=42",
-    "value_score": 280.9142857142857,
-    "raw_price": 70.0
   },
   {
     "id": 216,
@@ -336,22 +240,6 @@
     "raw_price": 7.0
   },
   {
-    "id": 40,
-    "title": "E3-1230v3 (4 cores)",
-    "price": "$59.00 USD Monthly",
-    "specs": {
-      "cpu": 4,
-      "ram": 16384,
-      "disk": "250GB SSD",
-      "bandwidth": "10 TB",
-      "location": "US"
-    },
-    "description": "E3-1230v3 (4 cores) E3-1230v3 (4 cores) 16GB RAM 250GB SSD Software/BIOS 10TB Bandwidth 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=40",
-    "value_score": 166.64406779661016,
-    "raw_price": 59.0
-  },
-  {
     "id": 213,
     "title": "Promo VPS Saver LA BF LEB 2025",
     "price": "$6.85 USD Annually",
@@ -446,22 +334,6 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=126",
     "value_score": 68.7248322147651,
     "raw_price": 17.88
-  },
-  {
-    "id": 85,
-    "title": "Promo VPS Economy NY LEB Offer",
-    "price": "$20.88 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 2048,
-      "disk": "20GB SSD",
-      "bandwidth": "2 TB",
-      "location": "New York"
-    },
-    "description": "Promo VPS Economy NY LEB Offer 2 GB RAM 1x vCore CPU 20 GB SSD 2 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=85",
-    "value_score": 58.85057471264368,
-    "raw_price": 20.88
   },
   {
     "id": 91,
@@ -656,38 +528,6 @@
     "raw_price": 25.2
   },
   {
-    "id": 114,
-    "title": "LET Offer LA KVM VPS Plus",
-    "price": "$52.25 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 4096,
-      "disk": "100GB SSD",
-      "bandwidth": "2 TB",
-      "location": "Los Angeles"
-    },
-    "description": "LET Offer LA KVM VPS Plus 4 GB RAM 4x vCore CPU 100 GB SSD 2 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=114",
-    "value_score": 47.03540669856459,
-    "raw_price": 52.25
-  },
-  {
-    "id": 119,
-    "title": "LET Offer NY KVM VPS Plus",
-    "price": "$52.25 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 4096,
-      "disk": "100GB SSD",
-      "bandwidth": "2 TB",
-      "location": "New York"
-    },
-    "description": "LET Offer NY KVM VPS Plus 4 GB RAM 4x vCore CPU 100 GB SSD 2 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=119",
-    "value_score": 47.03540669856459,
-    "raw_price": 52.25
-  },
-  {
     "id": 56,
     "title": "LA KVM VPS Premium",
     "price": "$209.94 USD Semi-Annually",
@@ -700,22 +540,6 @@
     },
     "description": "LA KVM VPS Premium 16 GB RAM 8x vCore CPU 300 GB SSD 4 TB Bandwidth 1 Gbp/s connection 1 IPv4",
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=56",
-    "value_score": 46.82480708773935,
-    "raw_price": 209.94
-  },
-  {
-    "id": 71,
-    "title": "NY KVM VPS Premium",
-    "price": "$209.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 16384,
-      "disk": "300GB SSD",
-      "bandwidth": "4 TB",
-      "location": "New York"
-    },
-    "description": "NY KVM VPS Premium 16 GB RAM 8x vCore CPU 300 GB SSD 4 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=71",
     "value_score": 46.82480708773935,
     "raw_price": 209.94
   },
@@ -832,38 +656,6 @@
     "raw_price": 10.18
   },
   {
-    "id": 90,
-    "title": "Promo VPS LEB Special 768 MB LA",
-    "price": "$10.18 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 768.0,
-      "disk": "10GB SSD",
-      "bandwidth": "1000 GB",
-      "location": "Los Angeles"
-    },
-    "description": "Promo VPS LEB Special 768 MB LA 768 MB RAM 1x vCore CPU 10 GB SSD 1000 GB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=90",
-    "value_score": 45.26522593320235,
-    "raw_price": 10.18
-  },
-  {
-    "id": 123,
-    "title": "Promo VPS LEB Special 768 MB",
-    "price": "$10.18 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 768.0,
-      "disk": "10GB SSD",
-      "bandwidth": "1000 GB",
-      "location": "US"
-    },
-    "description": "Promo VPS LEB Special 768 MB 768 MB RAM 1x vCore CPU 10 GB SSD 1000 GB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=123",
-    "value_score": 45.26522593320235,
-    "raw_price": 10.18
-  },
-  {
     "id": 199,
     "title": "Storage Promo Plus BF 2025",
     "price": "$27.48 USD Annually",
@@ -878,22 +670,6 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=199",
     "value_score": 44.71615720524017,
     "raw_price": 27.48
-  },
-  {
-    "id": 108,
-    "title": "Storage Promo Plus BF",
-    "price": "$27.68 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 2048,
-      "disk": "N/A",
-      "bandwidth": "4 TB",
-      "location": "US"
-    },
-    "description": "Storage Promo Plus BF 2 GB RAM 1x vCore CPU 2 TB Space 4 TB Bandwidth 600 Mbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=108",
-    "value_score": 44.39306358381503,
-    "raw_price": 27.68
   },
   {
     "id": 112,
@@ -960,22 +736,6 @@
     "raw_price": 119.94
   },
   {
-    "id": 70,
-    "title": "NY KVM VPS Advanced",
-    "price": "$119.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 8192,
-      "disk": "200GB SSD",
-      "bandwidth": "2 TB",
-      "location": "New York"
-    },
-    "description": "NY KVM VPS Advanced 8 GB RAM 6x vCore CPU 200 GB SSD 2 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=70",
-    "value_score": 40.98049024512256,
-    "raw_price": 119.94
-  },
-  {
     "id": 218,
     "title": "Storage Promo Plus CM LEB 2025",
     "price": "$31.20 USD Annually",
@@ -1008,22 +768,6 @@
     "raw_price": 47.94
   },
   {
-    "id": 74,
-    "title": "Promo VPS Value LA",
-    "price": "$47.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 3072,
-      "disk": "40GB SSD",
-      "bandwidth": "3 TB",
-      "location": "Los Angeles"
-    },
-    "description": "Promo VPS Value LA 3 GB RAM 2x vCore CPU 40 GB SSD 3 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=74",
-    "value_score": 38.44806007509386,
-    "raw_price": 47.94
-  },
-  {
     "id": 110,
     "title": "Storage Promo Essentials  CM",
     "price": "$16.68 USD Annually",
@@ -1040,22 +784,6 @@
     "raw_price": 16.68
   },
   {
-    "id": 197,
-    "title": "Storage Promo Essentials  BF 2025",
-    "price": "$17.38 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 1024,
-      "disk": "N/A",
-      "bandwidth": "2 TB",
-      "location": "US"
-    },
-    "description": "Storage Promo Essentials  BF 2025 1 GB RAM 1x vCore CPU 1 TB Space 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=197",
-    "value_score": 35.35097813578826,
-    "raw_price": 17.38
-  },
-  {
     "id": 107,
     "title": "Storage Promo Essentials BF",
     "price": "$17.68 USD Annually",
@@ -1070,22 +798,6 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=107",
     "value_score": 34.751131221719454,
     "raw_price": 17.68
-  },
-  {
-    "id": 62,
-    "title": "Promo VPS Saver NY",
-    "price": "$17.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 1024,
-      "disk": "10GB SSD",
-      "bandwidth": "1 TB",
-      "location": "New York"
-    },
-    "description": "Promo VPS Saver NY 1 GB RAM 1x vCore CPU 10 GB SSD 1 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=62",
-    "value_score": 34.247491638795985,
-    "raw_price": 17.94
   },
   {
     "id": 72,
@@ -1136,38 +848,6 @@
     "raw_price": 35.94
   },
   {
-    "id": 73,
-    "title": "Promo VPS Economy LA",
-    "price": "$35.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 2048,
-      "disk": "20GB SSD",
-      "bandwidth": "2 TB",
-      "location": "Los Angeles"
-    },
-    "description": "Promo VPS Economy LA 2 GB RAM 1x vCore CPU 20 GB SSD 2 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=73",
-    "value_score": 34.19031719532554,
-    "raw_price": 35.94
-  },
-  {
-    "id": 54,
-    "title": "LA KVM VPS Plus",
-    "price": "$77.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 4096,
-      "disk": "100GB SSD",
-      "bandwidth": "2 TB",
-      "location": "Los Angeles"
-    },
-    "description": "LA KVM VPS Plus 4 GB RAM 4x vCore CPU 100 GB SSD 2 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=54",
-    "value_score": 31.53194765204003,
-    "raw_price": 77.94
-  },
-  {
     "id": 69,
     "title": "NY KVM VPS Plus",
     "price": "$77.94 USD Semi-Annually",
@@ -1198,22 +878,6 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=109",
     "value_score": 28.235294117647054,
     "raw_price": 10.88
-  },
-  {
-    "id": 195,
-    "title": "Storage Promo Starter BF 2025",
-    "price": "$11.68 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 512.0,
-      "disk": "N/A",
-      "bandwidth": "1 TB",
-      "location": "US"
-    },
-    "description": "Storage Promo Starter BF 2025 512 MB RAM 1x vCore CPU 256 GB Space 1 TB Bandwidth 1 Gbps Network Port 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=195",
-    "value_score": 26.301369863013697,
-    "raw_price": 11.68
   },
   {
     "id": 80,
@@ -1296,38 +960,6 @@
     "raw_price": 53.94
   },
   {
-    "id": 61,
-    "title": "Storage Premium",
-    "price": "$215.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 8192,
-      "disk": "N/A",
-      "bandwidth": "16 TB",
-      "location": "US"
-    },
-    "description": "Storage Premium 8 GB RAM 1x vCPU core 8 TB Space 16 TB Bandwidth 1 Gbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=61",
-    "value_score": 22.761878299527645,
-    "raw_price": 215.94
-  },
-  {
-    "id": 60,
-    "title": "Storage Advanced",
-    "price": "$113.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 4096,
-      "disk": "N/A",
-      "bandwidth": "8 TB",
-      "location": "US"
-    },
-    "description": "Storage Advanced 4 GB RAM 1x vCPU core 4 TB Space 8 TB Bandwidth 800 Mbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=60",
-    "value_score": 21.569246972090575,
-    "raw_price": 113.94
-  },
-  {
     "id": 59,
     "title": "Storage Plus",
     "price": "$59.94 USD Semi-Annually",
@@ -1360,22 +992,6 @@
     "raw_price": 35.94
   },
   {
-    "id": 58,
-    "title": "Storage Essentials",
-    "price": "$35.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 1024,
-      "disk": "N/A",
-      "bandwidth": "2 TB",
-      "location": "US"
-    },
-    "description": "Storage Essentials 1 GB RAM 1x vCPU core 1 TB Space 2 TB Bandwidth 400 Mbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=58",
-    "value_score": 17.09515859766277,
-    "raw_price": 35.94
-  },
-  {
     "id": 67,
     "title": "NY KVM VPS Starter",
     "price": "$35.94 USD Semi-Annually",
@@ -1390,21 +1006,5 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=67",
     "value_score": 17.09515859766277,
     "raw_price": 35.94
-  },
-  {
-    "id": 57,
-    "title": "Storage Starter",
-    "price": "$23.94 USD Semi-Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 512.0,
-      "disk": "N/A",
-      "bandwidth": "1 TB",
-      "location": "US"
-    },
-    "description": "Storage Starter 512 MB RAM 1x vCPU core 256 GB Space 1 TB Bandwidth 200 Mbp/s connection 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=57",
-    "value_score": 12.832080200501252,
-    "raw_price": 23.94
   }
 ]
