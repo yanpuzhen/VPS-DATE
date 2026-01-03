@@ -906,7 +906,7 @@
       "bandwidth": "4 TB",
       "location": "US"
     },
-    "description": "Storage Promo Plus BF 2 GB RAM 1x vCore CPU 2 TB Space 4 TB Bandwidth 600 Mbp/s connection 1 IPv4",
+    "description": "Storage Promo Plus BF 2 GB RAM 1x vCore CPU 2 TB Space 4 TB Bandwidth 1 Gbps Network Port 1 IPv4",
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=108",
     "value_score": 44.39306358381503,
     "raw_price": 27.68
@@ -1082,7 +1082,7 @@
       "bandwidth": "2 TB",
       "location": "US"
     },
-    "description": "Storage Promo Essentials BF 1 GB RAM 1x vCore CPU 1 TB Space 2 TB Bandwidth 400 Mbp/s connection 1 IPv4",
+    "description": "Storage Promo Essentials BF 1 GB RAM 1x vCore CPU 1 TB Space 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=107",
     "value_score": 34.751131221719454,
     "raw_price": 17.68
@@ -1258,7 +1258,7 @@
       "bandwidth": "1 TB",
       "location": "US"
     },
-    "description": "Storage Promo Starter BF 512 MB RAM 1x vCore CPU 256 GB Space 1 TB Bandwidth 200 Mbp/s connection 1 IPv4",
+    "description": "Storage Promo Starter BF 512 MB RAM 1x vCore CPU 256 GB Space 1 TB Bandwidth 1 Gbps Network Port 1 IPv4",
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=106",
     "value_score": 25.858585858585855,
     "raw_price": 11.88
