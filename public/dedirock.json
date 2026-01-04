@@ -256,6 +256,22 @@
     "raw_price": 6.75
   },
   {
+    "id": 202,
+    "title": "Promo VPS Economy LA BF 2025",
+    "price": "$33.75 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 10240,
+      "disk": "150GB SSD",
+      "bandwidth": "5 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Promo VPS Economy LA BF 2025 10 GB RAM 5x vCore CPU 150 GB SSD 5 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=202",
+    "value_score": 182.04444444444445,
+    "raw_price": 33.75
+  },
+  {
     "id": 203,
     "title": "Promo VPS Value LA BF 2025",
     "price": "$67.50 USD Annually",
