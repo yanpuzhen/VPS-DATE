@@ -1,5 +1,21 @@
 [
   {
+    "id": "DEDICATED - Dual Intel Xeon E5-2683 v4 (2x 2 TB SSD)",
+    "title": "DEDICATED - Dual Intel Xeon E5-2683 v4 (2x 2 TB SSD)",
+    "price": "$209.00 USD",
+    "specs": {
+      "ram": 262144,
+      "disk": "2x 2TB SSD",
+      "cpu": 32,
+      "bandwidth": "N/A",
+      "location": "New York"
+    },
+    "description": "Dual Intel Xeon E5-2683 V4 - 32x 2.10 GHz (64 Threads, 3.00 GHz Turbo) 256 GB RAM 2x 2 TB SSD Unmetered 1Gbps Bandwidth /27 IPv4 Allocation - 29 Usable IPs IPMI Access New York - US-East Datacenter",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/dedicated-dual-intel-xeon-e5-2683-v4-2x-2-tb-ssd",
+    "value_score": 752.6277511961722,
+    "raw_price": 209.0
+  },
+  {
     "id": "DEDICATED - AMD EPYC 7402 Special",
     "title": "DEDICATED - AMD EPYC 7402 Special",
     "price": "$155.00 USD",
@@ -78,6 +94,22 @@
     "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-128gb-ram-1tb-ssd-3tb-hdd",
     "value_score": 321.0448979591837,
     "raw_price": 245.0
+  },
+  {
+    "id": "DEDICATED - Intel Xeon E3-1240 V3 (1 TB SSD + 3 TB HDD)",
+    "title": "DEDICATED - Intel Xeon E3-1240 V3 (1 TB SSD + 3 TB HDD)",
+    "price": "$64.95 USD",
+    "specs": {
+      "ram": 32768,
+      "disk": "1TB SSD",
+      "cpu": 4,
+      "bandwidth": "N/A",
+      "location": "New York"
+    },
+    "description": "Intel Xeon E3-1240 V3 - 4x 3.40 GHz (8 Threads, 3.80 GHz Turbo) 32 GB RAM 1 TB SSD (Main Drive) 3 TB HDD (Secondary Drive) Unmetered 1Gbps Bandwidth /28 IPv4 Allocation - 13 Usable IPs IPMI Access New",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/dedicated-intel-xeon-e3-1240-v3-1-tb-ssd-3-tb-hdd",
+    "value_score": 302.7313317936874,
+    "raw_price": 64.95
   },
   {
     "id": "AMD Ryzen 5950X | 128GB RAM | 2TB NVMe",
@@ -464,6 +496,38 @@
     "raw_price": 139.0
   },
   {
+    "id": "2 GB KVM VPS (New Year Special)",
+    "title": "2 GB KVM VPS (New Year Special)",
+    "price": "$18.29 / Year",
+    "specs": {
+      "ram": 2048,
+      "disk": "N/A",
+      "cpu": 1,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "1 vCPU Core 40 GB PURE SSD RAID-10 Storage 2 GB RAM 3500GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot, Rei",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/2-gb-kvm-vps-new-year-special",
+    "value_score": 67.20612356478951,
+    "raw_price": 18.29
+  },
+  {
+    "id": "3.5 GB KVM VPS (New Year Special)",
+    "title": "3.5 GB KVM VPS (New Year Special)",
+    "price": "$32.49 / Year",
+    "specs": {
+      "ram": 3584,
+      "disk": "N/A",
+      "cpu": 2,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "2 vCPU Cores 65 GB PURE SSD RAID-10 Storage 3.5 GB RAM 7000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot, ",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/3584mb-kvm-vps-new-year-special",
+    "value_score": 66.21114188981225,
+    "raw_price": 32.49
+  },
+  {
     "id": "Dual E5-2690 | 4 GB RAM",
     "title": "Dual E5-2690 | 4 GB RAM",
     "price": "$39.00 USD",
@@ -478,6 +542,22 @@
     "purchase_url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-4-gb-ram",
     "value_score": 63.03589743589744,
     "raw_price": 39.0
+  },
+  {
+    "id": "6 GB KVM VPS (New Year Special)",
+    "title": "6 GB KVM VPS (New Year Special)",
+    "price": "$59.99 / Year",
+    "specs": {
+      "ram": 6144,
+      "disk": "N/A",
+      "cpu": 4,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "4 vCPU Cores 140 GB PURE SSD RAID-10 Storage 6 GB RAM 12,000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot,",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/6-gb-kvm-vps-new-year-special",
+    "value_score": 61.47691281880312,
+    "raw_price": 59.99
   },
   {
     "id": "Dual Xeon L5520 - Los Angeles DC-01",
@@ -526,6 +606,38 @@
     "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/1-gb-kvm-vps-black-friday-2025",
     "value_score": 58.0,
     "raw_price": 10.6
+  },
+  {
+    "id": "4 GB KVM VPS (New Year Special)",
+    "title": "4 GB KVM VPS (New Year Special)",
+    "price": "$43.88 / Year",
+    "specs": {
+      "ram": 4096,
+      "disk": "N/A",
+      "cpu": 3,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "3 vCPU Cores 105 GB PURE SSD RAID-10 Storage 4 GB RAM 9000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot, R",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/4-gb-kvm-vps-new-year-special",
+    "value_score": 56.034639927073826,
+    "raw_price": 43.88
+  },
+  {
+    "id": "1 GB KVM VPS (New Year Special)",
+    "title": "1 GB KVM VPS (New Year Special)",
+    "price": "$11.29 / Year",
+    "specs": {
+      "ram": 1024,
+      "disk": "N/A",
+      "cpu": 1,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "1 vCPU Core 24 GB PURE SSD RAID-10 Storage 1 GB RAM 2000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot, Rei",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/1-gb-kvm-vps-new-year-special",
+    "value_score": 54.45527015057573,
+    "raw_price": 11.29
   },
   {
     "id": "Intel Xeon E3-1240 v3 - LA / DAL / CHI / NY",
