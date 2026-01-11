@@ -1280,6 +1280,22 @@
     "raw_price": 53.94
   },
   {
+    "id": 68,
+    "title": "NY KVM VPS Essentials",
+    "price": "$53.94 USD Semi-Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2048,
+      "disk": "40GB SSD",
+      "bandwidth": "1 TB",
+      "location": "New York"
+    },
+    "description": "NY KVM VPS Essentials 2 GB RAM 2x vCore CPU 40 GB SSD 1 TB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=68",
+    "value_score": 22.78086763070078,
+    "raw_price": 53.94
+  },
+  {
     "id": 61,
     "title": "Storage Premium",
     "price": "$215.94 USD Semi-Annually",
