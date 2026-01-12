@@ -352,6 +352,22 @@
     "raw_price": 59.0
   },
   {
+    "id": 230,
+    "title": "Storage Wars Final Boss",
+    "price": "$12.88 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 3072,
+      "disk": "2TB STORAGE",
+      "bandwidth": "N/A",
+      "location": "New York"
+    },
+    "description": "Storage Wars Final Boss 1x vCPU Core 2 TB Storage 3 GB RAM 6000GB Monthly Bandwidth 1 Gbps Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / Virtualizor NY Location",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=230",
+    "value_score": 143.1055900621118,
+    "raw_price": 12.88
+  },
+  {
     "id": 213,
     "title": "Promo VPS Saver LA BF LEB 2025",
     "price": "$6.85 USD Annually",
@@ -384,18 +400,18 @@
     "raw_price": 6.85
   },
   {
-    "id": 226,
-    "title": "1.5 TB Storage VPS",
+    "id": 229,
+    "title": "Storage Wars Power",
     "price": "$12.88 USD Annually",
     "specs": {
       "cpu": 0,
       "ram": 2560,
       "disk": "5TB STORAGE",
-      "bandwidth": "2 TB",
-      "location": "US"
+      "bandwidth": "N/A",
+      "location": "New York"
     },
-    "description": "1.5 TB Storage VPS 2.5 GB RAM 1x vCore CPU 1.5 TB Space 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=226",
+    "description": "Storage Wars Power 1x vCPU Core 1.5 TB Storage 2.5 GB RAM 4000GB Monthly Bandwidth 1 Gbps Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / Virtualizor NY Location",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=229",
     "value_score": 119.25465838509317,
     "raw_price": 12.88
   },
@@ -432,18 +448,18 @@
     "raw_price": 38.0
   },
   {
-    "id": 225,
-    "title": "1 TB Storage VPS",
+    "id": 228,
+    "title": "Storage Wars Starter",
     "price": "$12.88 USD Annually",
     "specs": {
       "cpu": 0,
       "ram": 2048,
       "disk": "1TB STORAGE",
-      "bandwidth": "2 TB",
-      "location": "US"
+      "bandwidth": "N/A",
+      "location": "New York"
     },
-    "description": "1 TB Storage VPS 2 GB RAM 1x vCore CPU 1 TB Space 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=225",
+    "description": "Storage Wars Starter 1x vCPU Core 1 TB Storage 2 GB RAM 2000GB Monthly Bandwidth 1 Gbps Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / Virtualizor NY Location",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=228",
     "value_score": 95.40372670807453,
     "raw_price": 12.88
   },
@@ -1292,22 +1308,6 @@
     },
     "description": "Storage Promo Starter LEB 512 MB RAM 1x vCore CPU 512 GB Space 2 TB Bandwidth 300 Mbp/s connection 1 IPv4",
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=188",
-    "value_score": 23.850931677018632,
-    "raw_price": 12.88
-  },
-  {
-    "id": 227,
-    "title": "2 TB Storage VPS",
-    "price": "$12.88 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 512.0,
-      "disk": "2TB STORAGE",
-      "bandwidth": "2 TB",
-      "location": "US"
-    },
-    "description": "2 TB Storage VPS 512 MB RAM 1x vCore CPU 2 TB Space 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=227",
     "value_score": 23.850931677018632,
     "raw_price": 12.88
   },
