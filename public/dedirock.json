@@ -1264,6 +1264,54 @@
     "raw_price": 12.88
   },
   {
+    "id": 225,
+    "title": "1 TB Storage VPS",
+    "price": "$12.88 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 512.0,
+      "disk": "1TB STORAGE",
+      "bandwidth": "2 TB",
+      "location": "US"
+    },
+    "description": "1 TB Storage VPS 512 MB RAM 1x vCore CPU 512 GB Space 2 TB Bandwidth 300 Mbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=225",
+    "value_score": 23.850931677018632,
+    "raw_price": 12.88
+  },
+  {
+    "id": 226,
+    "title": "1.5 TB Storage VPS",
+    "price": "$12.88 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 512.0,
+      "disk": "5TB STORAGE",
+      "bandwidth": "2 TB",
+      "location": "US"
+    },
+    "description": "1.5 TB Storage VPS 512 MB RAM 1x vCore CPU 512 GB Space 2 TB Bandwidth 300 Mbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=226",
+    "value_score": 23.850931677018632,
+    "raw_price": 12.88
+  },
+  {
+    "id": 227,
+    "title": "2.0 TB Storage VPS",
+    "price": "$12.88 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 512.0,
+      "disk": "0TB STORAGE",
+      "bandwidth": "2 TB",
+      "location": "US"
+    },
+    "description": "2.0 TB Storage VPS 512 MB RAM 1x vCore CPU 512 GB Space 2 TB Bandwidth 300 Mbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=227",
+    "value_score": 23.850931677018632,
+    "raw_price": 12.88
+  },
+  {
     "id": 37,
     "title": "LA KVM VPS Essentials",
     "price": "$53.94 USD Semi-Annually",
