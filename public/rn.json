@@ -1,1 +1,1170 @@
-[]
+[
+  {
+    "id": "DEDICATED - Dual Intel Xeon E5-2683 v4 (2x 2 TB SSD)",
+    "title": "DEDICATED - Dual Intel Xeon E5-2683 v4 (2x 2 TB SSD)",
+    "price": "$209.00 USD",
+    "specs": {
+      "ram": 262144,
+      "disk": "2x 2TB SSD",
+      "cpu": 32,
+      "bandwidth": "N/A",
+      "location": "New York"
+    },
+    "description": "Dual Intel Xeon E5-2683 V4 - 32x 2.10 GHz (64 Threads, 3.00 GHz Turbo) 256 GB RAM 2x 2 TB SSD Unmetered 1Gbps Bandwidth /27 IPv4 Allocation - 29 Usable IPs IPMI Access New York - US-East Datacenter",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/dedicated-dual-intel-xeon-e5-2683-v4-2x-2-tb-ssd",
+    "value_score": 752.6277511961722,
+    "raw_price": 209.0
+  },
+  {
+    "id": "DEDICATED - AMD EPYC 7402 Special",
+    "title": "DEDICATED - AMD EPYC 7402 Special",
+    "price": "$155.00 USD",
+    "specs": {
+      "ram": 131072,
+      "disk": "2TB NVME",
+      "cpu": 24,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "AMD EPYC 7402 - 24x 2.80 GHz (48 Threads, 3.35 GHz Turbo) 128 GB RAM 2TB NVMe Storage Unmetered 1Gbps Bandwidth /30 IPv4 Allocation - 1 Usable IP IPMI Access Utah - West Coast Datacenter",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/dedicated-amd-epyc-7402-special",
+    "value_score": 507.4374193548387,
+    "raw_price": 155.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2650 v2 | 256GB RAM | 4x 2TB SSD",
+    "title": "Dual Intel Xeon E5-2650 v2 | 256GB RAM | 4x 2TB SSD",
+    "price": "$349.00 USD",
+    "specs": {
+      "ram": 262144,
+      "disk": "4x 2TB SSD",
+      "cpu": 32,
+      "bandwidth": "100 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo) 256 GB RAM 4x 2 TB SSD 100 TB Monthly Transfer 1Gbps Network Port Premium Network Blend /27 IPv4 Allocation - 29 Usable IPs Deploy",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-256gb-ram-4x-2tb-ssd",
+    "value_score": 450.7140401146131,
+    "raw_price": 349.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2680 v4 | 256GB RAM | 4x 2TB SSD",
+    "title": "Dual Intel Xeon E5-2680 v4 | 256GB RAM | 4x 2TB SSD",
+    "price": "$399.00 USD",
+    "specs": {
+      "ram": 262144,
+      "disk": "4x 2TB SSD",
+      "cpu": 56,
+      "bandwidth": "100 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2680 v4 28x 2.40 GHz (56x Threads, 3.30 GHz Turbo) 256 GB RAM 4x 2 TB SSD 100 TB Monthly Transfer 1Gbps Network Port Premium Network Blend /26 IPv4 Allocation - 61 Usable IPs Deploy",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2698-v4-256gb-ram-4x-2tb-ssd",
+    "value_score": 394.25764411027563,
+    "raw_price": 399.0
+  },
+  {
+    "id": "DEDICATED - Intel Xeon E3-1240 V3 Special",
+    "title": "DEDICATED - Intel Xeon E3-1240 V3 Special",
+    "price": "$59.00 USD",
+    "specs": {
+      "ram": 32768,
+      "disk": "500GB SSD",
+      "cpu": 4,
+      "bandwidth": "30 TB",
+      "location": "New York"
+    },
+    "description": "Intel Xeon E3-1240 V3 - 4x 3.40 GHz (8 Threads, 3.80 GHz Turbo) 32 GB RAM 500 GB SSD (main drive) 2 TB SATA HDD (secondary drive) 30 TB Monthly Transfer 1Gbps Network Port /28 IPv4 Allocation - 13 Usa",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/dedicated-intel-xeon-e3-1240-v3-special",
+    "value_score": 333.2610169491525,
+    "raw_price": 59.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2650 v2 | 128GB RAM | 1TB SSD + 3TB HDD",
+    "title": "Dual Intel Xeon E5-2650 v2 | 128GB RAM | 1TB SSD + 3TB HDD",
+    "price": "$245.00 USD",
+    "specs": {
+      "ram": 131072,
+      "disk": "1TB SSD",
+      "cpu": 32,
+      "bandwidth": "50 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo) 128 GB RAM 1x 1TB SSD 1x 3TB HDD 50 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Deployed in Firs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-128gb-ram-1tb-ssd-3tb-hdd",
+    "value_score": 321.0448979591837,
+    "raw_price": 245.0
+  },
+  {
+    "id": "DEDICATED - Intel Xeon E3-1240 V3 (1 TB SSD + 3 TB HDD)",
+    "title": "DEDICATED - Intel Xeon E3-1240 V3 (1 TB SSD + 3 TB HDD)",
+    "price": "$64.95 USD",
+    "specs": {
+      "ram": 32768,
+      "disk": "1TB SSD",
+      "cpu": 4,
+      "bandwidth": "N/A",
+      "location": "New York"
+    },
+    "description": "Intel Xeon E3-1240 V3 - 4x 3.40 GHz (8 Threads, 3.80 GHz Turbo) 32 GB RAM 1 TB SSD (Main Drive) 3 TB HDD (Secondary Drive) Unmetered 1Gbps Bandwidth /28 IPv4 Allocation - 13 Usable IPs IPMI Access New",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/dedicated-intel-xeon-e3-1240-v3-1-tb-ssd-3-tb-hdd",
+    "value_score": 302.7313317936874,
+    "raw_price": 64.95
+  },
+  {
+    "id": "AMD Ryzen 5950X | 128GB RAM | 2TB NVMe",
+    "title": "AMD Ryzen 5950X | 128GB RAM | 2TB NVMe",
+    "price": "$309.00 USD",
+    "specs": {
+      "ram": 131072,
+      "disk": "2TB NVME",
+      "cpu": 32,
+      "bandwidth": "40 TB",
+      "location": "Global"
+    },
+    "description": "AMD Ryzen™ 9 5950X - 16x 3.40 GHz (32x Threads, 4.90 GHz Max Boost Clock) 128 GB DDR4 RAM 2 TB NVMe 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - West C",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-5950x-128gb-ram-2tb-nvme",
+    "value_score": 254.55016181229774,
+    "raw_price": 309.0
+  },
+  {
+    "id": "AMD Ryzen 7950X3D | 192GB RAM | 2x 3.84TB NVMe",
+    "title": "AMD Ryzen 7950X3D | 192GB RAM | 2x 3.84TB NVMe",
+    "price": "$499.00 USD",
+    "specs": {
+      "ram": 196608,
+      "disk": "84TB NVME",
+      "cpu": 32,
+      "bandwidth": "40 TB",
+      "location": "Global"
+    },
+    "description": "AMD Ryzen™ 9 7950X3D - 16x 4.20 GHz (32x Threads, 5.70 GHz Max Boost Clock) 192 GB DDR5 RAM 2x 3.84 TB NVMe 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah ",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7950x3d-192gb-ram-2x-384tb-nvme",
+    "value_score": 236.42805611222443,
+    "raw_price": 499.0
+  },
+  {
+    "id": "AMD Ryzen 7950X3D | 128GB RAM | 1TB NVMe",
+    "title": "AMD Ryzen 7950X3D | 128GB RAM | 1TB NVMe",
+    "price": "$379.00 USD",
+    "specs": {
+      "ram": 131072,
+      "disk": "1TB NVME",
+      "cpu": 32,
+      "bandwidth": "40 TB",
+      "location": "Global"
+    },
+    "description": "AMD Ryzen™ 9 7950X3D - 16x 4.20 GHz (32x Threads, 5.70 GHz Max Boost Clock) 128 GB DDR5 RAM 1 TB NVMe Storage 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Uta",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7950x3d-128gb-ram-1tb-nvme",
+    "value_score": 207.53562005277044,
+    "raw_price": 379.0
+  },
+  {
+    "id": "DEDICATED - Intel Xeon E3-1230 V2 Special",
+    "title": "DEDICATED - Intel Xeon E3-1230 V2 Special",
+    "price": "$49.00 USD",
+    "specs": {
+      "ram": 16384,
+      "disk": "500GB SSD",
+      "cpu": 4,
+      "bandwidth": "30 TB",
+      "location": "New York"
+    },
+    "description": "Intel Xeon E3-1230 V2 - 4x 3.30 GHz (8 Threads, 3.70 GHz Turbo) 16 GB RAM 500 GB SSD 30 TB Monthly Transfer 1Gbps Network Port /29 IPv4 Allocation - 5 Usable IPs IPMI Access New York - East Coast Data",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/dedicated-intel-xeon-e3-1230-v2-special",
+    "value_score": 200.6530612244898,
+    "raw_price": 49.0
+  },
+  {
+    "id": "Dual E5-2690 | 32 GB RAM",
+    "title": "Dual E5-2690 | 32 GB RAM",
+    "price": "$99.00 USD",
+    "specs": {
+      "ram": 32768,
+      "disk": "750GB HDD",
+      "cpu": 8,
+      "bandwidth": "10 TB",
+      "location": "Global"
+    },
+    "description": "Dual Xeon E5-2690 8x 2.90 GHz 32 GB RAM 750 GB HDD 10TB Monthly Transfer 1Gbps Network Port 1 IPv4 Address",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-32-gb-ram",
+    "value_score": 198.62626262626262,
+    "raw_price": 99.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2650 v2 | 64GB RAM | 1TB SSD",
+    "title": "Dual Intel Xeon E5-2650 v2 | 64GB RAM | 1TB SSD",
+    "price": "$199.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "1TB SSD",
+      "cpu": 32,
+      "bandwidth": "100 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo) 64 GB RAM 1 TB SSD 100 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Deployed in First Available U",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-64gb-ram-1tb-ssd",
+    "value_score": 197.6603015075377,
+    "raw_price": 199.0
+  },
+  {
+    "id": "AMD Ryzen 7600 | 64GB RAM | 1TB NVMe",
+    "title": "AMD Ryzen 7600 | 64GB RAM | 1TB NVMe",
+    "price": "$219.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "1TB NVME",
+      "cpu": 12,
+      "bandwidth": "40 TB",
+      "location": "Global"
+    },
+    "description": "AMD Ryzen™ 5 7600 - 6x 3.80 GHz (12x Threads, 5.10 GHz Max Boost Clock) 64 GB DDR5 RAM 1 TB NVMe Storage 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - W",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7600-64gb-ram-1tb-nvme",
+    "value_score": 179.57260273972602,
+    "raw_price": 219.0
+  },
+  {
+    "id": "AMD Ryzen 7700 | 64GB RAM | 1TB NVMe",
+    "title": "AMD Ryzen 7700 | 64GB RAM | 1TB NVMe",
+    "price": "$249.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "1TB NVME",
+      "cpu": 16,
+      "bandwidth": "40 TB",
+      "location": "Global"
+    },
+    "description": "AMD Ryzen™ 7 7700 - 8x 3.80 GHz (16x Threads, 5.30 GHz Max Boost Clock) 64 GB DDR5 RAM 1 TB NVMe Storage 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - W",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7700-64gb-ram-1tb-nvme",
+    "value_score": 157.9437751004016,
+    "raw_price": 249.0
+  },
+  {
+    "id": "DEDICATED - 10x 16TB Storage Server Special",
+    "title": "DEDICATED - 10x 16TB Storage Server Special",
+    "price": "$259.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "240GB SSD",
+      "cpu": 32,
+      "bandwidth": "200 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Xeon E5-2640 V2 - 16x 2.00 GHz (32x Threads, 2.50GHz Turbo) 64 GB RAM 240 GB SSD 10x 16 TB HDD 200 TB Monthly Transfer 1Gbps Network Port /29 IPv4 Allocation - 5 Usable IPs IPMI Access Los Angele",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/dedicated-10x-16tb-storage-server-special",
+    "value_score": 151.87027027027028,
+    "raw_price": 259.0
+  },
+  {
+    "id": "AMD Ryzen 7900 | 64GB RAM | 1TB NVMe",
+    "title": "AMD Ryzen 7900 | 64GB RAM | 1TB NVMe",
+    "price": "$269.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "1TB NVME",
+      "cpu": 24,
+      "bandwidth": "40 TB",
+      "location": "Global"
+    },
+    "description": "AMD Ryzen™ 9 7900 - 12x 3.70 GHz (24x Threads, 5.40 GHz Max Boost Clock) 64 GB DDR5 RAM 1 TB NVMe 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - West Coa",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7900-64gb-ram-1tb-nvme",
+    "value_score": 146.21263940520444,
+    "raw_price": 269.0
+  },
+  {
+    "id": "KVM-8GB",
+    "title": "KVM-8GB",
+    "price": "$36.59 USD",
+    "specs": {
+      "ram": 8192.0,
+      "disk": "220GB SSD",
+      "cpu": 6,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "6x vCPU Core 220 GB SSD RAID-10 Storage 8192MB RAM 5000GB Premium Bandwidth 1Gbps Network Port Full Root Admin Access 2 Dedicated IPs KVM / SolusVM Control Panel",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-8gb",
+    "value_score": 134.39737633233122,
+    "raw_price": 36.59
+  },
+  {
+    "id": "KVM-6GB",
+    "title": "KVM-6GB",
+    "price": "$27.59 USD",
+    "specs": {
+      "ram": 6144.0,
+      "disk": "170GB SSD",
+      "cpu": 5,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "5x vCPU Core 170 GB SSD RAID-10 Storage 6144MB RAM 4000GB Premium Bandwidth 1Gbps Network Port Full Root Admin Access 1 Dedicated IP KVM / SolusVM Control Panel",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-6gb",
+    "value_score": 133.68611815875315,
+    "raw_price": 27.59
+  },
+  {
+    "id": "KVM-12GB",
+    "title": "KVM-12GB",
+    "price": "$55.99 USD",
+    "specs": {
+      "ram": 12288.0,
+      "disk": "300GB SSD",
+      "cpu": 7,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "7x vCPU Core 300 GB SSD RAID-10 Storage 12288MB RAM 6000GB Premium Bandwidth 1Gbps Network Port Full Root Admin Access 2 Dedicated IPs KVM / SolusVM Control Panel",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-12gb",
+    "value_score": 131.73066619039113,
+    "raw_price": 55.99
+  },
+  {
+    "id": "Dual Intel Xeon E5-2620 v2 - LA / DAL / CHI / NY",
+    "title": "Dual Intel Xeon E5-2620 v2 - LA / DAL / CHI / NY",
+    "price": "$299.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "1TB SSD",
+      "cpu": 24,
+      "bandwidth": "30 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2620 v2 - 12x 2.10 GHz (24x Threads @ 2.10 GHz with HT) 64 GB RAM 1 TB SSD 30 TB Monthly Transfer / 1Gbps Network Port /29 + 8x /27 IPv4 Allocation - 237 Usable IPs Multiple Datacen",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/dual-intel-xeon-e5-2620-v2-la-dal-chi-ny",
+    "value_score": 131.54247491638796,
+    "raw_price": 299.0
+  },
+  {
+    "id": "Dual E5-2690 | 16 GB RAM",
+    "title": "Dual E5-2690 | 16 GB RAM",
+    "price": "$79.00 USD",
+    "specs": {
+      "ram": 16384,
+      "disk": "500GB HDD",
+      "cpu": 6,
+      "bandwidth": "10 TB",
+      "location": "Global"
+    },
+    "description": "Dual Xeon E5-2690 6x 2.90 GHz 16 GB RAM 500 GB HDD 10TB Monthly Transfer 1Gbps Network Port 1 IPv4 Address",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-16-gb-ram",
+    "value_score": 124.46582278481011,
+    "raw_price": 79.0
+  },
+  {
+    "id": "Intel Xeon E3-1270 v3 | 32GB RAM | 2x 1TB SSD",
+    "title": "Intel Xeon E3-1270 v3 | 32GB RAM | 2x 1TB SSD",
+    "price": "$169.00 USD",
+    "specs": {
+      "ram": 32768,
+      "disk": "2x 1TB SSD",
+      "cpu": 8,
+      "bandwidth": "35 TB",
+      "location": "Global"
+    },
+    "description": "Intel Xeon E3-1270 v3 - 4x 3.50 GHz (8x Threads @ 3.90 GHz with HT) 32 GB RAM 2x 1 TB SSD 35 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Multiple Datacenter Locations",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/intel-xeon-e3-1270-v3-32gb-ram-2x-1tb-ssd",
+    "value_score": 116.35502958579882,
+    "raw_price": 169.0
+  },
+  {
+    "id": "KVM-4GB",
+    "title": "KVM-4GB",
+    "price": "$24.59 USD",
+    "specs": {
+      "ram": 4096.0,
+      "disk": "130GB SSD",
+      "cpu": 4,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "4x vCPU Core 130 GB SSD RAID-10 Storage 4096MB RAM 3000GB Premium Bandwidth 1Gbps Network Port Full Root Admin Access 1 Dedicated IP KVM / SolusVM Control Panel",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-4gb",
+    "value_score": 100.00813338755592,
+    "raw_price": 24.59
+  },
+  {
+    "id": "Dual E5-2690 | 8 GB RAM",
+    "title": "Dual E5-2690 | 8 GB RAM",
+    "price": "$59.00 USD",
+    "specs": {
+      "ram": 8192,
+      "disk": "250GB HDD",
+      "cpu": 4,
+      "bandwidth": "5 TB",
+      "location": "Global"
+    },
+    "description": "Dual Xeon E5-2690 4x 2.90 GHz 8 GB RAM 250 GB HDD 5TB Monthly Transfer 1Gbps Network Port 1 IPv4 Address",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-8-gb-ram",
+    "value_score": 83.33559322033899,
+    "raw_price": 59.0
+  },
+  {
+    "id": "2.5 GB KVM VPS (Black Friday 2025)",
+    "title": "2.5 GB KVM VPS (Black Friday 2025)",
+    "price": "$18.66 / Year",
+    "specs": {
+      "ram": 2560,
+      "disk": "N/A",
+      "cpu": 2,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "2x vCPU Cores 45 GB PURE SSD RAID-10 Storage 2.5 GB RAM 3000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot,",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/2560mb-kvm-vps-black-friday-2025",
+    "value_score": 82.35798499464094,
+    "raw_price": 18.66
+  },
+  {
+    "id": "[STORAGE SERVER SPECIAL] Dual Xeon E5-2640 V2 | 64 GB RAM | 10x 16 TB SAS + 256 GB SSD | RAID + BBU",
+    "title": "[STORAGE SERVER SPECIAL] Dual Xeon E5-2640 V2 | 64 GB RAM | 10x 16 TB SAS + 256 GB SSD | RAID + BBU",
+    "price": "$479.00 USD",
+    "specs": {
+      "ram": 65536,
+      "disk": "256GB SSD",
+      "cpu": 16,
+      "bandwidth": "200 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon E5-2640 V2 16x 2.00 GHz / 32 Threads 64 GB RAM 256 GB SSD (primary drive) 10x 16TB SAS Enterprise Drives Premium Hardware RAID Controller w/ BBU 200 TB Monthly Transfer 1Gbps Network P",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/storage-server-special-dual-xeon-e5-2640-v2-64-gb-ram-10x-16-tb-sas-256-gb-ssd-raid-bbu",
+    "value_score": 82.10438413361169,
+    "raw_price": 479.0
+  },
+  {
+    "id": "4 GB KVM VPS (Black Friday 2025)",
+    "title": "4 GB KVM VPS (Black Friday 2025)",
+    "price": "$29.98 / Year",
+    "specs": {
+      "ram": 4096,
+      "disk": "N/A",
+      "cpu": 3,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "3x vCPU Cores 65 GB PURE SSD RAID-10 Storage 4 GB RAM 6500GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot, R",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/4-gb-kvm-vps-black-friday-2025",
+    "value_score": 82.0146764509673,
+    "raw_price": 29.98
+  },
+  {
+    "id": "6 GB KVM VPS (Black Friday 2025)",
+    "title": "6 GB KVM VPS (Black Friday 2025)",
+    "price": "$44.98 / Year",
+    "specs": {
+      "ram": 6144,
+      "disk": "N/A",
+      "cpu": 5,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "5x vCPU Cores 100 GB PURE SSD RAID-10 Storage 6 GB RAM 10,000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/6-gb-kvm-vps-black-friday-2025",
+    "value_score": 82.00088928412627,
+    "raw_price": 44.98
+  },
+  {
+    "id": "8 GB KVM VPS (Black Friday 2025)",
+    "title": "8 GB KVM VPS (Black Friday 2025)",
+    "price": "$62.49 / Year",
+    "specs": {
+      "ram": 8192,
+      "disk": "N/A",
+      "cpu": 6,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "6x vCPU Cores 150 GB PURE SSD RAID-10 Storage 8 GB RAM 20,000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/8-gb-kvm-vps-black-friday-2025",
+    "value_score": 78.69419107057128,
+    "raw_price": 62.49
+  },
+  {
+    "id": "Intel Xeon E3-1230 v2 | 16GB RAM | 480 GB SSD",
+    "title": "Intel Xeon E3-1230 v2 | 16GB RAM | 480 GB SSD",
+    "price": "$139.00 USD",
+    "specs": {
+      "ram": 16384,
+      "disk": "480GB SSD",
+      "cpu": 8,
+      "bandwidth": "35 TB",
+      "location": "Global"
+    },
+    "description": "Intel Xeon E3-1230 v2 - 4x 3.30 GHz (8x Threads @ 3.30 GHz with HT) 16 GB RAM 480 GB SSD 35 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 5 IPv4 Addresses Multiple Datacenter Locations",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/intel-xeon-e3-1230-v2-16gb-ram-480-gb-ssd",
+    "value_score": 70.7453237410072,
+    "raw_price": 139.0
+  },
+  {
+    "id": "2 GB KVM VPS (New Year Special)",
+    "title": "2 GB KVM VPS (New Year Special)",
+    "price": "$18.29 / Year",
+    "specs": {
+      "ram": 2048,
+      "disk": "N/A",
+      "cpu": 1,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "1 vCPU Core 40 GB PURE SSD RAID-10 Storage 2 GB RAM 3500GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot, Rei",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/2-gb-kvm-vps-new-year-special",
+    "value_score": 67.20612356478951,
+    "raw_price": 18.29
+  },
+  {
+    "id": "3.5 GB KVM VPS (New Year Special)",
+    "title": "3.5 GB KVM VPS (New Year Special)",
+    "price": "$32.49 / Year",
+    "specs": {
+      "ram": 3584,
+      "disk": "N/A",
+      "cpu": 2,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "2 vCPU Cores 65 GB PURE SSD RAID-10 Storage 3.5 GB RAM 7000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot, ",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/3584mb-kvm-vps-new-year-special",
+    "value_score": 66.21114188981225,
+    "raw_price": 32.49
+  },
+  {
+    "id": "Dual E5-2690 | 4 GB RAM",
+    "title": "Dual E5-2690 | 4 GB RAM",
+    "price": "$39.00 USD",
+    "specs": {
+      "ram": 4096,
+      "disk": "120GB HDD",
+      "cpu": 2,
+      "bandwidth": "5 TB",
+      "location": "Global"
+    },
+    "description": "Dual Xeon E5-2690 2x 2.90 GHz 4 GB RAM 120 GB HDD 5TB Monthly Transfer 1Gbps Network Port 1 IPv4 Address",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-4-gb-ram",
+    "value_score": 63.03589743589744,
+    "raw_price": 39.0
+  },
+  {
+    "id": "6 GB KVM VPS (New Year Special)",
+    "title": "6 GB KVM VPS (New Year Special)",
+    "price": "$59.99 / Year",
+    "specs": {
+      "ram": 6144,
+      "disk": "N/A",
+      "cpu": 4,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "4 vCPU Cores 140 GB PURE SSD RAID-10 Storage 6 GB RAM 12,000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot,",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/6-gb-kvm-vps-new-year-special",
+    "value_score": 61.47691281880312,
+    "raw_price": 59.99
+  },
+  {
+    "id": "Dual Xeon L5520 - Los Angeles DC-01",
+    "title": "Dual Xeon L5520 - Los Angeles DC-01",
+    "price": "$245.00 USD",
+    "specs": {
+      "ram": 24576,
+      "disk": "1TB HDD",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "Dual Intel Xeon L5520 24 GB RAM 1TB HDD or 120 GB SSD 100Mbps Unmetered Bandwidth 1x /24, 4x /26, 8x /27, or 16x /28 IPv4 Allocations Los Angeles DC-01 Datacenter",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/dual-xeon-l5520-los-angeles-dc-01",
+    "value_score": 60.18612244897959,
+    "raw_price": 245.0
+  },
+  {
+    "id": "KVM-2GB",
+    "title": "KVM-2GB",
+    "price": "$20.59 USD",
+    "specs": {
+      "ram": 2048.0,
+      "disk": "75GB SSD",
+      "cpu": 3,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "3x vCPU Core 75 GB SSD RAID-10 Storage 2048MB RAM 2000GB Premium Bandwidth 1Gbps Network Port Full Root Admin Access 1 Dedicated IP KVM / SolusVM Control Panel",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-2gb",
+    "value_score": 59.73773676542011,
+    "raw_price": 20.59
+  },
+  {
+    "id": "1 GB KVM VPS (Black Friday 2025)",
+    "title": "1 GB KVM VPS (Black Friday 2025)",
+    "price": "$10.6 / Year",
+    "specs": {
+      "ram": 1024,
+      "disk": "N/A",
+      "cpu": 1,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "1 vCPU Core 25 GB PURE SSD RAID-10 Storage 1 GB RAM 2000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot, Rei",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/1-gb-kvm-vps-black-friday-2025",
+    "value_score": 58.0,
+    "raw_price": 10.6
+  },
+  {
+    "id": "4 GB KVM VPS (New Year Special)",
+    "title": "4 GB KVM VPS (New Year Special)",
+    "price": "$43.88 / Year",
+    "specs": {
+      "ram": 4096,
+      "disk": "N/A",
+      "cpu": 3,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "3 vCPU Cores 105 GB PURE SSD RAID-10 Storage 4 GB RAM 9000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot, R",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/4-gb-kvm-vps-new-year-special",
+    "value_score": 56.034639927073826,
+    "raw_price": 43.88
+  },
+  {
+    "id": "1 GB KVM VPS (New Year Special)",
+    "title": "1 GB KVM VPS (New Year Special)",
+    "price": "$11.29 / Year",
+    "specs": {
+      "ram": 1024,
+      "disk": "N/A",
+      "cpu": 1,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "1 vCPU Core 24 GB PURE SSD RAID-10 Storage 1 GB RAM 2000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Reboot, Rei",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/new-year-specials/1-gb-kvm-vps-new-year-special",
+    "value_score": 54.45527015057573,
+    "raw_price": 11.29
+  },
+  {
+    "id": "Intel Xeon E3-1240 v3 - LA / DAL / CHI / NY",
+    "title": "Intel Xeon E3-1240 v3 - LA / DAL / CHI / NY",
+    "price": "$229.00 USD",
+    "specs": {
+      "ram": 16384,
+      "disk": "500GB SSD",
+      "cpu": 8,
+      "bandwidth": "30 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Intel Xeon E3-1240 v3 - 4x 3.40 GHz (8x Threads @ 3.40 GHz with HT) 16 GB RAM 500GB SSD or 1 TB HDD 30 TB Monthly Transfer / 1Gbps Network Port /29 + 8x /27 IPv4 Allocation - 237 Usable IPs Multiple D",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/intel-xeon-e3-1240-v3-la-dal-chi-ny",
+    "value_score": 42.941484716157206,
+    "raw_price": 229.0
+  },
+  {
+    "id": "Intel Xeon E3-1230 v2 - Los Angeles DC-01",
+    "title": "Intel Xeon E3-1230 v2 - Los Angeles DC-01",
+    "price": "$235.00 USD",
+    "specs": {
+      "ram": 16384,
+      "disk": "N/A",
+      "cpu": 0,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "Intel Xeon E3-1230v2 16 GB RAM 1TB SATA HDD 100Mbps Unmetered Bandwidth 1x /24, 4x /26, 8x /27, or 16x /28 IPv4 Allocations Los Angeles DC-01 Datacenter",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/intel-xeon-e3-1230-v2-los-angeles-dc-01",
+    "value_score": 41.831489361702126,
+    "raw_price": 235.0
+  },
+  {
+    "id": "Intel Xeon E3-1240 v3 - 32x /29's - NY",
+    "title": "Intel Xeon E3-1240 v3 - 32x /29's - NY",
+    "price": "$269.00 USD",
+    "specs": {
+      "ram": 16384,
+      "disk": "500GB SSD",
+      "cpu": 8,
+      "bandwidth": "30 TB",
+      "location": "New York"
+    },
+    "description": "Intel Xeon E3-1240 v3 - 4x 3.40 GHz (8x Threads @ 3.40 GHz with HT) 16 GB RAM 500GB SSD or 1TB SATA HDD 30 TB Monthly Transfer / 1Gbps Network Port /29 + 32x /29 IPv4 Allocations (Diverse 32c) New Yor",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/intel-xeon-e3-1240-v3-32x-29s-ny",
+    "value_score": 36.55613382899628,
+    "raw_price": 269.0
+  },
+  {
+    "id": "KVM-1GB",
+    "title": "KVM-1GB",
+    "price": "$17.99 USD",
+    "specs": {
+      "ram": 1024.0,
+      "disk": "50GB SSD",
+      "cpu": 2,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "2x vCPU Core 50 GB SSD RAID-10 Storage 1024MB RAM 1000GB Premium Bandwidth 1Gbps Network Port Full Root Admin Access 1 Dedicated IP KVM / SolusVM Control Panel",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-1gb",
+    "value_score": 34.196775986659254,
+    "raw_price": 17.99
+  },
+  {
+    "id": "KVM-512MB",
+    "title": "KVM-512MB",
+    "price": "$22.99 USD",
+    "specs": {
+      "ram": 512.0,
+      "disk": "30GB SSD",
+      "cpu": 1,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "1x vCPU Core 30 GB SSD RAID-10 Storage 512MB RAM 500GB Premium Bandwidth 1Gbps Network Port Full Root Admin Access 1 Dedicated IP KVM / SolusVM Control Panel",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-512mb",
+    "value_score": 13.37973031752936,
+    "raw_price": 22.99
+  },
+  {
+    "id": "Windows VPS 8GB",
+    "title": "Windows VPS 8GB",
+    "price": "$44.59 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "110GB NVME",
+      "cpu": 3,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "3x AMD Ryzen CPU Cores 110 GB NVMe SSD Storage 8 GB DDR4 RAM 5000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Administrator Access Remote Desktop (RDP) Access 1 Dedicated IPv4 Address K",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-8gb",
+    "value_score": 0.026911863646557527,
+    "raw_price": 44.59
+  },
+  {
+    "id": "Windows VPS 16GB",
+    "title": "Windows VPS 16GB",
+    "price": "$89.59 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "200GB NVME",
+      "cpu": 6,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "6x AMD Ryzen CPU Cores 200 GB NVMe SSD Storage 16 GB DDR4 RAM 10,000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Administrator Access Remote Desktop (RDP) Access 2 Dedicated IPv4 Addres",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-16gb",
+    "value_score": 0.02678870409643934,
+    "raw_price": 89.59
+  },
+  {
+    "id": "Windows VPS 4GB",
+    "title": "Windows VPS 4GB",
+    "price": "$30.59 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "60GB NVME",
+      "cpu": 2,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "2x AMD Ryzen CPU Cores 60 GB NVMe SSD Storage 4 GB DDR4 RAM 2000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Administrator Access Remote Desktop (RDP) Access 1 Dedicated IPv4 Address KV",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-4gb",
+    "value_score": 0.02615233736515201,
+    "raw_price": 30.59
+  },
+  {
+    "id": "AMD EPYC 7702P (10Gbps Unmetered)",
+    "title": "AMD EPYC 7702P (10Gbps Unmetered)",
+    "price": "$1999.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "2x 1TB NVME",
+      "cpu": 128,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "AMD EPYC 7702P - 64x 2.00 GHz (128x Threads) 128 GB DDR4 RAM 2x 1 TB NVMe True 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7702p-10gbps-unmetered",
+    "value_score": 0.025612806403201602,
+    "raw_price": 1999.0
+  },
+  {
+    "id": "Windows VPS 12GB",
+    "title": "Windows VPS 12GB",
+    "price": "$64.59 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "160GB NVME",
+      "cpu": 4,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "4x AMD Ryzen CPU Cores 160 GB NVMe SSD Storage 12 GB DDR4 RAM 6000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Administrator Access Remote Desktop (RDP) Access 2 Dedicated IPv4 Addresse",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-12gb",
+    "value_score": 0.02477163647623471,
+    "raw_price": 64.59
+  },
+  {
+    "id": "AMD EPYC 7642 (10Gbps Unmetered)",
+    "title": "AMD EPYC 7642 (10Gbps Unmetered)",
+    "price": "$1699.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "2x 1TB NVME",
+      "cpu": 96,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "AMD EPYC 7642 - 48x 2.30 GHz (96x Threads) 128 GB DDR4 RAM 2x 1 TB NVMe True 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7642-10gbps-unmetered",
+    "value_score": 0.02260153031194821,
+    "raw_price": 1699.0
+  },
+  {
+    "id": "Windows VPS 6GB",
+    "title": "Windows VPS 6GB",
+    "price": "$35.59 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "85GB NVME",
+      "cpu": 2,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "2x AMD Ryzen CPU Cores 85 GB NVMe SSD Storage 6 GB DDR4 RAM 3000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Administrator Access Remote Desktop (RDP) Access 1 Dedicated IPv4 Address KV",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-6gb",
+    "value_score": 0.022478224220286596,
+    "raw_price": 35.59
+  },
+  {
+    "id": "AMD EPYC 7702P (20Gbps Unmetered)",
+    "title": "AMD EPYC 7702P (20Gbps Unmetered)",
+    "price": "$2899.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "2x 1TB NVME",
+      "cpu": 128,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "AMD EPYC 7702P - 64x 2.00 GHz (128x Threads) 128 GB DDR4 RAM 2x 1 TB NVMe True 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7702p-20gbps-unmetered",
+    "value_score": 0.017661262504311832,
+    "raw_price": 2899.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2630 V4 (10Gbps Unmetered)",
+    "title": "Dual Intel Xeon E5-2630 V4 (10Gbps Unmetered)",
+    "price": "$950.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "1TB NVME",
+      "cpu": 40,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Dual Intel Xeon E5-2630 V4 - 20x 2.20 GHz (40x Threads) 64 GB DDR4 RAM 1 TB NVMe True 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2630-v4-10gbps-unmetered",
+    "value_score": 0.016842105263157894,
+    "raw_price": 950.0
+  },
+  {
+    "id": "AMD EPYC 7642 (20Gbps Unmetered)",
+    "title": "AMD EPYC 7642 (20Gbps Unmetered)",
+    "price": "$2599.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "2x 1TB NVME",
+      "cpu": 96,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "AMD EPYC 7642 - 48x 2.30 GHz (96x Threads) 128 GB DDR4 RAM 2x 1 TB NVMe True 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7642-20gbps-unmetered",
+    "value_score": 0.014774913428241634,
+    "raw_price": 2599.0
+  },
+  {
+    "id": "Windows VPS 2GB",
+    "title": "Windows VPS 2GB",
+    "price": "$27.59 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "35GB NVME",
+      "cpu": 1,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "1x AMD Ryzen CPU Core 35 GB NVMe SSD Storage 2 GB DDR4 RAM 2000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Administrator Access Remote Desktop (RDP) Access 1 Dedicated IPv4 Address KVM",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-2gb",
+    "value_score": 0.014498006524102937,
+    "raw_price": 27.59
+  },
+  {
+    "id": "1GB Ryzen VPS",
+    "title": "1GB Ryzen VPS",
+    "price": "$32.55 / Year",
+    "specs": {
+      "ram": 0,
+      "disk": "20GB NVME",
+      "cpu": 1,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "1x AMD Ryzen CPU Core 20 GB NVMe SSD Storage 1 GB DDR4 RAM 2000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Rebo",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-linux-kvm-vps/1gb-ryzen-vps",
+    "value_score": 0.012288786482334871,
+    "raw_price": 32.55
+  },
+  {
+    "id": "DEDICATED - SEO Server Special 249 IPs",
+    "title": "DEDICATED - SEO Server Special 249 IPs",
+    "price": "$135.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "1TB SSD",
+      "cpu": 4,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "Intel Xeon E3-1240 V2 - 4x 3.40 GHz (8 Threads, 3.80 GHz Turbo) 16 GB DDR3 RAM 1 TB SSD 30 TB @ 1Gbps Bandwidth /29 + 4x /26 IPv4 Allocations (249 Usable IPs) Other IPv4 Diversity Options Available Be",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/dedicated-seo-server-special-249-ips-1",
+    "value_score": 0.011851851851851853,
+    "raw_price": 135.0
+  },
+  {
+    "id": "2.5 GB Ryzen VPS",
+    "title": "2.5 GB Ryzen VPS",
+    "price": "$69.59 / Year",
+    "specs": {
+      "ram": 0,
+      "disk": "40GB NVME",
+      "cpu": 2,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "2x AMD Ryzen CPU Cores 40 GB NVMe SSD Storage 2.5 GB DDR4 RAM 6000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - R",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-linux-kvm-vps/25-gb-ryzen-vps",
+    "value_score": 0.011495904583991953,
+    "raw_price": 69.59
+  },
+  {
+    "id": "1.5 GB Ryzen VPS",
+    "title": "1.5 GB Ryzen VPS",
+    "price": "$35.59 / Year",
+    "specs": {
+      "ram": 0,
+      "disk": "22GB NVME",
+      "cpu": 1,
+      "bandwidth": "N/A",
+      "location": "Los Angeles"
+    },
+    "description": "1x AMD Ryzen CPU Core 22 GB NVMe SSD Storage 1.5 GB DDR4 RAM 3000GB Monthly Premium Bandwidth 1Gbps Public Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / SolusVM Control Panel - Re",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-linux-kvm-vps/15-gb-ryzen-vps",
+    "value_score": 0.011239112110143298,
+    "raw_price": 35.59
+  },
+  {
+    "id": "Dual Intel Xeon E5-2695 V4 (10Gbps Unmetered)",
+    "title": "Dual Intel Xeon E5-2695 V4 (10Gbps Unmetered)",
+    "price": "$1399.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "2x 1TB NVME",
+      "cpu": 36,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Dual Intel Xeon E5-2695 V4 - 36x 2.10 GHz (72 Threads) 128 GB DDR4 RAM 2x 1 TB NVMe True 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2695-v4-10gbps-unmetered",
+    "value_score": 0.010293066476054324,
+    "raw_price": 1399.0
+  },
+  {
+    "id": "AMD EPYC 7702P (40Gbps Unmetered)",
+    "title": "AMD EPYC 7702P (40Gbps Unmetered)",
+    "price": "$5099.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "2x 1TB NVME",
+      "cpu": 128,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "AMD EPYC 7702P - 64x 2.00 GHz (128x Threads) 128 GB DDR4 RAM 2x 1 TB NVMe True 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7702p-40gbps-unmetered",
+    "value_score": 0.01004118454598941,
+    "raw_price": 5099.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2630 V4 (20Gbps Unmetered)",
+    "title": "Dual Intel Xeon E5-2630 V4 (20Gbps Unmetered)",
+    "price": "$1850.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "1TB NVME",
+      "cpu": 40,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Dual Intel Xeon E5-2630 V4 - 20x 2.20 GHz (40x Threads) 64 GB DDR4 RAM 1 TB NVMe True 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2630-v4-20gbps-unmetered",
+    "value_score": 0.008648648648648649,
+    "raw_price": 1850.0
+  },
+  {
+    "id": "AMD EPYC 7642 (40Gbps Unmetered)",
+    "title": "AMD EPYC 7642 (40Gbps Unmetered)",
+    "price": "$4799.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "2x 1TB NVME",
+      "cpu": 96,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "AMD EPYC 7642 - 48x 2.30 GHz (96x Threads) 128 GB DDR4 RAM 2x 1 TB NVMe True 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7642-40gbps-unmetered",
+    "value_score": 0.008001667013961242,
+    "raw_price": 4799.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2695 V4 (20Gbps Unmetered)",
+    "title": "Dual Intel Xeon E5-2695 V4 (20Gbps Unmetered)",
+    "price": "$2299.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "2x 1TB NVME",
+      "cpu": 36,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Dual Intel Xeon E5-2695 V4 - 36x 2.10 GHz (72 Threads) 128 GB DDR4 RAM 2x 1 TB NVMe True 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2695-v4-20gbps-unmetered",
+    "value_score": 0.0062635928664636804,
+    "raw_price": 2299.0
+  },
+  {
+    "id": "Intel Xeon E-2136 (10Gbps Unmetered)",
+    "title": "Intel Xeon E-2136 (10Gbps Unmetered)",
+    "price": "$799.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "1TB NVME",
+      "cpu": 12,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Intel Xeon E-2136 - 6x 3.30 GHz (12x Threads) 32 GB DDR4 RAM 1 TB NVMe True 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e-2136-10gbps-unmetered",
+    "value_score": 0.006007509386733417,
+    "raw_price": 799.0
+  },
+  {
+    "id": "Intel Xeon E3-1230 V3 (10Gbps Unmetered)",
+    "title": "Intel Xeon E3-1230 V3 (10Gbps Unmetered)",
+    "price": "$599.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "1TB SSD",
+      "cpu": 8,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Intel Xeon E3-1230 V3 - 4x 3.30 GHz (8x Threads) 32 GB DDR3 RAM 1 TB SSD True 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e3-1230-v3-10gbps-unmetered",
+    "value_score": 0.005342237061769616,
+    "raw_price": 599.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2630 V4 (40Gbps Unmetered)",
+    "title": "Dual Intel Xeon E5-2630 V4 (40Gbps Unmetered)",
+    "price": "$3150.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "1TB NVME",
+      "cpu": 40,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Dual Intel Xeon E5-2630 V4 - 20x 2.20 GHz (40x Threads) 64 GB DDR4 RAM 1 TB NVMe True 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2630-v4-40gbps-unmetered",
+    "value_score": 0.005079365079365079,
+    "raw_price": 3150.0
+  },
+  {
+    "id": "Dual Intel Xeon E5-2695 V4 (40Gbps Unmetered)",
+    "title": "Dual Intel Xeon E5-2695 V4 (40Gbps Unmetered)",
+    "price": "$4499.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "2x 1TB NVME",
+      "cpu": 36,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Dual Intel Xeon E5-2695 V4 - 36x 2.10 GHz (72 Threads) 128 GB DDR4 RAM 2x 1 TB NVMe True 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2695-v4-40gbps-unmetered",
+    "value_score": 0.003200711269170927,
+    "raw_price": 4499.0
+  },
+  {
+    "id": "Intel Xeon E-2136 (20Gbps Unmetered)",
+    "title": "Intel Xeon E-2136 (20Gbps Unmetered)",
+    "price": "$1699.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "1TB NVME",
+      "cpu": 12,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Intel Xeon E-2136 - 6x 3.30 GHz (12x Threads) 32 GB DDR4 RAM 1 TB NVMe True 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e-2136-20gbps-unmetered",
+    "value_score": 0.002825191288993526,
+    "raw_price": 1699.0
+  },
+  {
+    "id": "Intel Xeon E3-1230 V3 (20Gbps Unmetered)",
+    "title": "Intel Xeon E3-1230 V3 (20Gbps Unmetered)",
+    "price": "$1499.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "1TB SSD",
+      "cpu": 8,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Intel Xeon E3-1230 V3 - 4x 3.30 GHz (8x Threads) 32 GB DDR3 RAM 1 TB SSD True 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e3-1230-v3-20gbps-unmetered",
+    "value_score": 0.002134756504336224,
+    "raw_price": 1499.0
+  },
+  {
+    "id": "Intel Xeon E-2136 (40Gbps Unmetered)",
+    "title": "Intel Xeon E-2136 (40Gbps Unmetered)",
+    "price": "$2999.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "1TB NVME",
+      "cpu": 12,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Intel Xeon E-2136 - 6x 3.30 GHz (12x Threads) 32 GB DDR4 RAM 1 TB NVMe True 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e-2136-40gbps-unmetered",
+    "value_score": 0.0016005335111703904,
+    "raw_price": 2999.0
+  },
+  {
+    "id": "Intel Xeon E3-1230 V3 (40Gbps Unmetered)",
+    "title": "Intel Xeon E3-1230 V3 (40Gbps Unmetered)",
+    "price": "$2799.00 USD",
+    "specs": {
+      "ram": 0,
+      "disk": "1TB SSD",
+      "cpu": 8,
+      "bandwidth": "N/A",
+      "location": "Global"
+    },
+    "description": "Intel Xeon E3-1230 V3 - 4x 3.30 GHz (8x Threads) 32 GB DDR3 RAM 1 TB SSD True 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7! /29 IPv4 Allocation - 5 Usable IPs",
+    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e3-1230-v3-40gbps-unmetered",
+    "value_score": 0.0011432654519471241,
+    "raw_price": 2799.0
+  }
+]
