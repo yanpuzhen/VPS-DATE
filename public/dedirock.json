@@ -448,38 +448,6 @@
     "raw_price": 17.88
   },
   {
-    "id": 228,
-    "title": "Storage Wars Starter",
-    "price": "$18.68 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 2048,
-      "disk": "1TB STORAGE",
-      "bandwidth": "N/A",
-      "location": "New York"
-    },
-    "description": "Storage Wars Starter 1x vCPU Core 1 TB Storage 2 GB RAM 2000GB Monthly Bandwidth 1 Gbps Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / Virtualizor NY Location",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=228",
-    "value_score": 65.78158458244111,
-    "raw_price": 18.68
-  },
-  {
-    "id": 229,
-    "title": "Storage Wars Power",
-    "price": "$24.55 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 2560,
-      "disk": "5TB STORAGE",
-      "bandwidth": "N/A",
-      "location": "New York"
-    },
-    "description": "Storage Wars Power 1x vCPU Core 1.5 TB Storage 2.5 GB RAM 4000GB Monthly Bandwidth 1 Gbps Network Port Full Root Admin Access 1 Dedicated IPv4 Address KVM / Virtualizor NY Location",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=229",
-    "value_score": 62.56619144602851,
-    "raw_price": 24.55
-  },
-  {
     "id": 85,
     "title": "Promo VPS Economy NY LEB Offer",
     "price": "$20.88 USD Annually",
