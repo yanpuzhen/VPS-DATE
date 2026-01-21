@@ -112,54 +112,6 @@
     "raw_price": 64.95
   },
   {
-    "id": "AMD Ryzen 5950X | 128GB RAM | 2TB NVMe",
-    "title": "AMD Ryzen 5950X | 128GB RAM | 2TB NVMe",
-    "price": "$309.00 USD",
-    "specs": {
-      "ram": 131072,
-      "disk": "2TB NVME",
-      "cpu": 32,
-      "bandwidth": "40 TB",
-      "location": "Global"
-    },
-    "description": "AMD Ryzen™ 9 5950X - 16x 3.40 GHz (32x Threads, 4.90 GHz Max Boost Clock) 128 GB DDR4 RAM 2 TB NVMe 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - West C",
-    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-5950x-128gb-ram-2tb-nvme",
-    "value_score": 254.55016181229774,
-    "raw_price": 309.0
-  },
-  {
-    "id": "AMD Ryzen 7950X3D | 192GB RAM | 2x 3.84TB NVMe",
-    "title": "AMD Ryzen 7950X3D | 192GB RAM | 2x 3.84TB NVMe",
-    "price": "$499.00 USD",
-    "specs": {
-      "ram": 196608,
-      "disk": "84TB NVME",
-      "cpu": 32,
-      "bandwidth": "40 TB",
-      "location": "Global"
-    },
-    "description": "AMD Ryzen™ 9 7950X3D - 16x 4.20 GHz (32x Threads, 5.70 GHz Max Boost Clock) 192 GB DDR5 RAM 2x 3.84 TB NVMe 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah ",
-    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7950x3d-192gb-ram-2x-384tb-nvme",
-    "value_score": 236.42805611222443,
-    "raw_price": 499.0
-  },
-  {
-    "id": "AMD Ryzen 7950X3D | 128GB RAM | 1TB NVMe",
-    "title": "AMD Ryzen 7950X3D | 128GB RAM | 1TB NVMe",
-    "price": "$379.00 USD",
-    "specs": {
-      "ram": 131072,
-      "disk": "1TB NVME",
-      "cpu": 32,
-      "bandwidth": "40 TB",
-      "location": "Global"
-    },
-    "description": "AMD Ryzen™ 9 7950X3D - 16x 4.20 GHz (32x Threads, 5.70 GHz Max Boost Clock) 128 GB DDR5 RAM 1 TB NVMe Storage 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Uta",
-    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7950x3d-128gb-ram-1tb-nvme",
-    "value_score": 207.53562005277044,
-    "raw_price": 379.0
-  },
-  {
     "id": "DEDICATED - Intel Xeon E3-1230 V2 Special",
     "title": "DEDICATED - Intel Xeon E3-1230 V2 Special",
     "price": "$49.00 USD",
@@ -208,38 +160,6 @@
     "raw_price": 199.0
   },
   {
-    "id": "AMD Ryzen 7600 | 64GB RAM | 1TB NVMe",
-    "title": "AMD Ryzen 7600 | 64GB RAM | 1TB NVMe",
-    "price": "$219.00 USD",
-    "specs": {
-      "ram": 65536,
-      "disk": "1TB NVME",
-      "cpu": 12,
-      "bandwidth": "40 TB",
-      "location": "Global"
-    },
-    "description": "AMD Ryzen™ 5 7600 - 6x 3.80 GHz (12x Threads, 5.10 GHz Max Boost Clock) 64 GB DDR5 RAM 1 TB NVMe Storage 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - W",
-    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7600-64gb-ram-1tb-nvme",
-    "value_score": 179.57260273972602,
-    "raw_price": 219.0
-  },
-  {
-    "id": "AMD Ryzen 7700 | 64GB RAM | 1TB NVMe",
-    "title": "AMD Ryzen 7700 | 64GB RAM | 1TB NVMe",
-    "price": "$249.00 USD",
-    "specs": {
-      "ram": 65536,
-      "disk": "1TB NVME",
-      "cpu": 16,
-      "bandwidth": "40 TB",
-      "location": "Global"
-    },
-    "description": "AMD Ryzen™ 7 7700 - 8x 3.80 GHz (16x Threads, 5.30 GHz Max Boost Clock) 64 GB DDR5 RAM 1 TB NVMe Storage 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - W",
-    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7700-64gb-ram-1tb-nvme",
-    "value_score": 157.9437751004016,
-    "raw_price": 249.0
-  },
-  {
     "id": "DEDICATED - 10x 16TB Storage Server Special",
     "title": "DEDICATED - 10x 16TB Storage Server Special",
     "price": "$259.00 USD",
@@ -254,22 +174,6 @@
     "purchase_url": "https://my.racknerd.com/index.php?rp=/store/blackfriday2025/dedicated-10x-16tb-storage-server-special",
     "value_score": 151.87027027027028,
     "raw_price": 259.0
-  },
-  {
-    "id": "AMD Ryzen 7900 | 64GB RAM | 1TB NVMe",
-    "title": "AMD Ryzen 7900 | 64GB RAM | 1TB NVMe",
-    "price": "$269.00 USD",
-    "specs": {
-      "ram": 65536,
-      "disk": "1TB NVME",
-      "cpu": 24,
-      "bandwidth": "40 TB",
-      "location": "Global"
-    },
-    "description": "AMD Ryzen™ 9 7900 - 12x 3.70 GHz (24x Threads, 5.40 GHz Max Boost Clock) 64 GB DDR5 RAM 1 TB NVMe 40 TB Monthly Transfer 1Gbps Network Port Premium Network Blend 1 Dedicated IP Address Utah - West Coa",
-    "purchase_url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7900-64gb-ram-1tb-nvme",
-    "value_score": 146.21263940520444,
-    "raw_price": 269.0
   },
   {
     "id": "KVM-8GB",
