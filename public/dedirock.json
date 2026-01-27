@@ -1248,6 +1248,22 @@
     "raw_price": 10.88
   },
   {
+    "id": 195,
+    "title": "Storage Promo Starter BF 2025",
+    "price": "$11.68 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 512.0,
+      "disk": "N/A",
+      "bandwidth": "1 TB",
+      "location": "US"
+    },
+    "description": "Storage Promo Starter BF 2025 512 MB RAM 1x vCore CPU 256 GB Space 1 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=195",
+    "value_score": 26.301369863013697,
+    "raw_price": 11.68
+  },
+  {
     "id": 80,
     "title": "Storage Promo Starter",
     "price": "$11.88 USD Annually",
