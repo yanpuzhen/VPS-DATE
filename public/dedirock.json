@@ -16,6 +16,22 @@
     "raw_price": 138.0
   },
   {
+    "id": 186,
+    "title": "Hostoy Cloud VPS Los Angeles - $3 KVM Monthly LA",
+    "price": "$3.00 USD Monthly",
+    "specs": {
+      "cpu": 0,
+      "ram": 4096,
+      "disk": "40GB SSD",
+      "bandwidth": "1 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Hostoy Cloud VPS Los Angeles - $3 KVM Monthly LA 4 GB RAM 3x vCore CPU 40 GB SSD 1 TB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=186",
+    "value_score": 819.1999999999999,
+    "raw_price": 3.0
+  },
+  {
     "id": 187,
     "title": "Hostoy Cloud VPS New York - $3 KVM Monthly NY",
     "price": "$3.00 USD Monthly",
@@ -176,6 +192,22 @@
     "raw_price": 6.45
   },
   {
+    "id": 217,
+    "title": "Promo VPS Saver NY CM LEB 2025",
+    "price": "$6.45 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2560,
+      "disk": "15GB SSD",
+      "bandwidth": "2 TB",
+      "location": "New York"
+    },
+    "description": "Promo VPS Saver NY CM LEB 2025 2.5 GB RAM 1x vCore CPU 15 GB SSD 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=217",
+    "value_score": 238.13953488372093,
+    "raw_price": 6.45
+  },
+  {
     "id": 220,
     "title": "Promo VPS Saver LA FAT32 2025",
     "price": "$6.59 USD Annually",
@@ -240,6 +272,22 @@
     "raw_price": 6.75
   },
   {
+    "id": 223,
+    "title": "Promo VPS Saver LA PMD 2025",
+    "price": "$6.99 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2048,
+      "disk": "20GB SSD",
+      "bandwidth": "2 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Promo VPS Saver LA PMD 2025 2 GB RAM 1x vCore CPU 20 GB SSD 2 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=223",
+    "value_score": 175.793991416309,
+    "raw_price": 6.99
+  },
+  {
     "id": 224,
     "title": "Promo VPS Saver NY PMD 2025",
     "price": "$6.99 USD Annually",
@@ -302,6 +350,22 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=40",
     "value_score": 166.64406779661016,
     "raw_price": 59.0
+  },
+  {
+    "id": 213,
+    "title": "Promo VPS Saver LA BF LEB 2025",
+    "price": "$6.85 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 1536,
+      "disk": "25GB SSD",
+      "bandwidth": "5 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Promo VPS Saver LA BF LEB 2025 1.5 GB RAM 1x vCore CPU 25 GB SSD 2.5 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=213",
+    "value_score": 134.54014598540147,
+    "raw_price": 6.85
   },
   {
     "id": 214,
@@ -912,6 +976,38 @@
     "raw_price": 13.88
   },
   {
+    "id": 82,
+    "title": "Storage Promo Plus",
+    "price": "$29.94 USD Semi-Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2048,
+      "disk": "N/A",
+      "bandwidth": "4 TB",
+      "location": "US"
+    },
+    "description": "Storage Promo Plus 2 GB RAM 1x vCore CPU 2 TB Space 4 TB Bandwidth 600 Mbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=82",
+    "value_score": 41.04208416833667,
+    "raw_price": 29.94
+  },
+  {
+    "id": 55,
+    "title": "LA KVM VPS Advanced",
+    "price": "$119.94 USD Semi-Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 8192,
+      "disk": "200GB SSD",
+      "bandwidth": "2 TB",
+      "location": "Los Angeles"
+    },
+    "description": "LA KVM VPS Advanced 8 GB RAM 6x vCore CPU 200 GB SSD 2 TB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=55",
+    "value_score": 40.98049024512256,
+    "raw_price": 119.94
+  },
+  {
     "id": 70,
     "title": "NY KVM VPS Advanced",
     "price": "$119.94 USD Semi-Annually",
@@ -942,6 +1038,54 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=218",
     "value_score": 39.38461538461539,
     "raw_price": 31.2
+  },
+  {
+    "id": 64,
+    "title": "Promo VPS Value NY",
+    "price": "$47.94 USD Semi-Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 3072,
+      "disk": "40GB SSD",
+      "bandwidth": "3 TB",
+      "location": "New York"
+    },
+    "description": "Promo VPS Value NY 3 GB RAM 2x vCore CPU 40 GB SSD 3 TB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=64",
+    "value_score": 38.44806007509386,
+    "raw_price": 47.94
+  },
+  {
+    "id": 74,
+    "title": "Promo VPS Value LA",
+    "price": "$47.94 USD Semi-Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 3072,
+      "disk": "40GB SSD",
+      "bandwidth": "3 TB",
+      "location": "Los Angeles"
+    },
+    "description": "Promo VPS Value LA 3 GB RAM 2x vCore CPU 40 GB SSD 3 TB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=74",
+    "value_score": 38.44806007509386,
+    "raw_price": 47.94
+  },
+  {
+    "id": 110,
+    "title": "Storage Promo Essentials  CM",
+    "price": "$16.68 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 1024,
+      "disk": "N/A",
+      "bandwidth": "2 TB",
+      "location": "US"
+    },
+    "description": "Storage Promo Essentials  CM 1 GB RAM 1x vCore CPU 1 TB Space 2 TB Bandwidth 400 Mbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=110",
+    "value_score": 36.83453237410072,
+    "raw_price": 16.68
   },
   {
     "id": 197,
@@ -1104,22 +1248,6 @@
     "raw_price": 10.88
   },
   {
-    "id": 195,
-    "title": "Storage Promo Starter BF 2025",
-    "price": "$11.68 USD Annually",
-    "specs": {
-      "cpu": 0,
-      "ram": 512.0,
-      "disk": "N/A",
-      "bandwidth": "1 TB",
-      "location": "US"
-    },
-    "description": "Storage Promo Starter BF 2025 512 MB RAM 1x vCore CPU 256 GB Space 1 TB Bandwidth 1 Gbps Network Port 1 IPv4",
-    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=195",
-    "value_score": 26.301369863013697,
-    "raw_price": 11.68
-  },
-  {
     "id": 80,
     "title": "Storage Promo Starter",
     "price": "$11.88 USD Annually",
@@ -1246,6 +1374,22 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=59",
     "value_score": 20.5005005005005,
     "raw_price": 59.94
+  },
+  {
+    "id": 36,
+    "title": "LA KVM VPS Starter",
+    "price": "$35.94 USD Semi-Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 1024,
+      "disk": "20GB SSD",
+      "bandwidth": "750 GB",
+      "location": "Los Angeles"
+    },
+    "description": "LA KVM VPS Starter 1 GB RAM 1x vCore CPU 20 GB SSD 750 GB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=36",
+    "value_score": 17.09515859766277,
+    "raw_price": 35.94
   },
   {
     "id": 58,
