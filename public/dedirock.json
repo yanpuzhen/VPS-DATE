@@ -656,6 +656,22 @@
     "raw_price": 17.99
   },
   {
+    "id": 189,
+    "title": "Storage Promo Essentials LEB",
+    "price": "$18.68 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 1536,
+      "disk": "N/A",
+      "bandwidth": "3 TB",
+      "location": "US"
+    },
+    "description": "Storage Promo Essentials LEB 1.5 GB RAM 1x vCore CPU 1 TB Space 3 TB Bandwidth 500 Mbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=189",
+    "value_score": 49.33618843683083,
+    "raw_price": 18.68
+  },
+  {
     "id": 113,
     "title": "LET Offer LA KVM VPS Essentials",
     "price": "$25.20 USD Annually",
@@ -846,6 +862,22 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=120",
     "value_score": 45.418591757530955,
     "raw_price": 108.22
+  },
+  {
+    "id": 89,
+    "title": "Promo VPS LEB Special 768 MB NY",
+    "price": "$10.18 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 768.0,
+      "disk": "10GB SSD",
+      "bandwidth": "1000 GB",
+      "location": "New York"
+    },
+    "description": "Promo VPS LEB Special 768 MB NY 768 MB RAM 1x vCore CPU 10 GB SSD 1000 GB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=89",
+    "value_score": 45.26522593320235,
+    "raw_price": 10.18
   },
   {
     "id": 90,
@@ -1136,6 +1168,22 @@
     "raw_price": 17.94
   },
   {
+    "id": 63,
+    "title": "Promo VPS Economy NY",
+    "price": "$35.94 USD Semi-Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2048,
+      "disk": "20GB SSD",
+      "bandwidth": "2 TB",
+      "location": "New York"
+    },
+    "description": "Promo VPS Economy NY 2 GB RAM 1x vCore CPU 20 GB SSD 2 TB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=63",
+    "value_score": 34.19031719532554,
+    "raw_price": 35.94
+  },
+  {
     "id": 73,
     "title": "Promo VPS Economy LA",
     "price": "$35.94 USD Semi-Annually",
@@ -1150,6 +1198,22 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=73",
     "value_score": 34.19031719532554,
     "raw_price": 35.94
+  },
+  {
+    "id": 54,
+    "title": "LA KVM VPS Plus",
+    "price": "$77.94 USD Semi-Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 4096,
+      "disk": "100GB SSD",
+      "bandwidth": "2 TB",
+      "location": "Los Angeles"
+    },
+    "description": "LA KVM VPS Plus 4 GB RAM 4x vCore CPU 100 GB SSD 2 TB Bandwidth 1 Gbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=54",
+    "value_score": 31.53194765204003,
+    "raw_price": 77.94
   },
   {
     "id": 69,
@@ -1182,6 +1246,22 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=109",
     "value_score": 28.235294117647054,
     "raw_price": 10.88
+  },
+  {
+    "id": 195,
+    "title": "Storage Promo Starter BF 2025",
+    "price": "$11.68 USD Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 512.0,
+      "disk": "N/A",
+      "bandwidth": "1 TB",
+      "location": "US"
+    },
+    "description": "Storage Promo Starter BF 2025 512 MB RAM 1x vCore CPU 256 GB Space 1 TB Bandwidth 1 Gbps Network Port 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=195",
+    "value_score": 26.301369863013697,
+    "raw_price": 11.68
   },
   {
     "id": 80,
@@ -1294,6 +1374,22 @@
     "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=60",
     "value_score": 21.569246972090575,
     "raw_price": 113.94
+  },
+  {
+    "id": 59,
+    "title": "Storage Plus",
+    "price": "$59.94 USD Semi-Annually",
+    "specs": {
+      "cpu": 0,
+      "ram": 2048,
+      "disk": "N/A",
+      "bandwidth": "4 TB",
+      "location": "US"
+    },
+    "description": "Storage Plus 2 GB RAM 1x vCPU core 2 TB Space 4 TB Bandwidth 600 Mbp/s connection 1 IPv4",
+    "purchase_url": "https://billing.dedirock.com/cart.php?a=add&pid=59",
+    "value_score": 20.5005005005005,
+    "raw_price": 59.94
   },
   {
     "id": 36,
